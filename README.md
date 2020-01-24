@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/Arquisoft/viade_es4a.svg?branch=master)](https://travis-ci.org/Arquisoft/viade_es4a)
 [![codecov](https://codecov.io/gh/Arquisoft/viade_es4a/branch/master/graph/badge.svg)](https://codecov.io/gh/Arquisoft/viade_es4a)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6d87ad7b8b89409aa9dc2d7a7492affc)](https://www.codacy.com/gh/Arquisoft/viade_0?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Arquisoft/viade_0&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2ab2a9322b4040d386f7cc5ad090b375)](https://www.codacy.com/gh/Arquisoft/viade_es4a?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Arquisoft/viade_es4a&amp;utm_campaign=Badge_Grade)
 
 # VIADE_es4a
 
