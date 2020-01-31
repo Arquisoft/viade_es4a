@@ -5,16 +5,16 @@
 ****
 .Restricciones tecnicas
 |===
-|Codigo|Restriccion |Descripcion
+|Codigo|Restricción |Descripción
 
-|RT1|Implementacion en React|La aplicacion esta desarrollada en React. Esto quiere decir que nos limitaremos a las funcionalidades de React y nodejs.
+|RT1|Implementación en React|La aplicación esta desarrollada en React. Esto quiere decir que nos limitaremos a las funcionalidades de React y Node js.
 
-|RT2|Librerias|Usaremos librerias que no dependen directamente de nosotros y por tanto estaremos limitados a su funcionalidad y seguridad.
+|RT2|Librerías|Usaremos librerías que no dependen directamente de nosotros y por tanto estaremos limitados a su funcionalidad y seguridad.
 |===
 
 .Restricciones organizativas
 |===
-|Restriccion |Descripcion
+|Restricción |Descripción
 
 |Software Development
 |The project is available in this **GitHub** repository in order to use __Multiple Integration__ options such as **link:https://travis-ci.org/Arquisoft/dechat_es6a2[Travis]** and **link:https://coveralls.io/github/Arquisoft/dechat_es6a2[Code Coverage]** options and to simplify the code sharing and reviewing.
