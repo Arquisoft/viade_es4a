@@ -6,35 +6,53 @@ Buscaremos desarrollar el proyecto para que tenga un sistema con una arquitectur
 Los usuarios de la aplicación buscarán registrar sus rutas en el pod propio, las cuales que después podrán visualizar, se podrá compartir con los amigos imágenes, videos u otro tipo de ficheros. Puede obtener notificaciones cuando algún amigo quiera compartir una ruta con él, grupos de amigos con los que compartir 
 
 [role="arc42help"]
-****
-Describes the relevant requirements and the driving forces that software architects and development team must consider. These include
+=== Vista de requisitos
 
-* underlying business goals, essential features and functional requirements for the system
-* quality goals for the architecture
-* relevant stakeholders and their expectations
-****
+.Funcionales
+* Los usuarios que utilicen la aplicación deberán de poseer un pod de SOLID.
+* El sistema deberá de notificar al usuario cuando quieran compartir un archivo con él.
+* Los usuarios podran crear grupos de amigos con quienes ellos puedan compartir una ruta.
+* Para registrar las rutas los usuarios deberán de estar conectados y autentificados en SOLID.
+* El sistema deberá poder ver las rutas cargadas por usuarios que estén utilizando una app diferente.
 
-=== Requirements Overview
+.No funcionales
+* Facilidad de aprendizaje para interaccionar con la aplicación por parte de los usuarios novatos en un corto espacio de tiempo.
+* El usuario pueda utilizar la aplicación con un tiempo de registro de rutas óptimo (especificar en versiones posteriores).
+* No poseer de una base central de datos, que comprometa la información de los usuarios que la usen.
+* Buscar la seguridad, sin tener puntos vulnerables:
+** SQL Injection.
+** Command Injection.
+** Fuga de información.
+** Puertas traseras.
+** Man in the middle.
+** Cross-site request forgery.
+* Nivel de accesibilidad y usabilidad siguiendo las recomendaciones de w3c.
 
 [role="arc42help"]
-****
-.Contents
-Short description of the functional requirements, driving forces, extract (or abstract)
-of requirements. Link to (hopefully existing) requirements documents
-(with version number and information where to find it).
 
-.Motivation
-From the point of view of the end users a system is created or modified to
-improve support of a business activity and/or improve the quality.
+=== Atributos de calidad
 
-.Form
-Short textual description, probably in tabular use-case format.
-If requirements documents exist this overview should refer to these documents.
-
-Keep these excerpts as short as possible. Balance readability of this document with potential redundancy w.r.t to requirements documents.
-****
-
-=== Quality Goals
+* Accesibilidad: diseño de una aplicación accesible para personas con discapacidades 
+* Disponibilidad: diseño de una aplicación que asegure un cierto grado absoluto de continuidad operacional durante un periodo de duración dado.
+* Modificabilidad: diseño de una aplicación con un software mantenible en el tiempo.
+* Rendimiento: capacidad del sistema a realizar operaciones sin un uso excesivo de recursos (memoria, datos, etc).
+* Seguridad: diseño de una aplicación que no sea vulnerable a:
+** SQL Injection.
+** Comand Injection.
+** Fuga de información.
+** Puertas traseras.
+** Man in the middle.
+** Cross-site request forgery.
+* Testeabilidad: diseño de una aplicación que sea capaz de pasar un software mínimo de pruebas para comprobar el correcto funcionamiento de esta.
+* Usabilidad: diseño de una aplicación que sea fácil de usar por parte de los usuarios que interactúen con ella.
+* Escalabilidad: capacidad de la apliación para albergar un mayor volumen de datos.
+* Interoperabilidad: capacidad de la aplicación para interactuar y coexistir con otros sistemas.
+* Portabilidad: característica que posee un software para ejecutarse en diferentes plataformas.
+* Integridad: diseño de una aplicación que mantenga la información exacta a como fue generada sin ser editada por usuarios o procesos no autizados a ello.
+* Consistencia: diseño de una aplicación que mantenga sus datos correctos en todo momento.
+* Robustez: capacidad de la aplicación para actuar y sobreponerse a errores no esperados en tiempo de ejecución.
+* Modular: diseño de una aplicación mediante subdivisiones de esta, independientes unas de otras.
+* Trazable: capacidad de la aplicación a seguir el rastro a las actividades realizadas en ella en todas las etapas de su ciclo de vida.
 
 [role="arc42help"]
 ****
