@@ -1,19 +1,35 @@
 [[section-architecture-constraints]]
 == Architecture Constraints
 
-
 [role="arc42help"]
 ****
-.Contents
-Any requirement that constrains software architects in their freedom of design and implementation decisions or decision about the development process. These constraints sometimes go beyond individual systems and are valid for whole organizations and companies.
+.Restricciones tecnicas
+|===
+|Codigo|Restriccion |Descripcion
 
-.Motivation
-Architects should know exactly where they are free in their design decisions and where they must adhere to constraints.
-Constraints must always be dealt with; they may be negotiable, though.
+|RT1|Implementacion en React|La aplicacion esta desarrollada en React. Esto quiere decir que nos limitaremos a las funcionalidades de React y nodejs.
 
-.Form
-Simple tables of constraints with explanations.
-If needed you can subdivide them into
-technical constraints, organizational and political constraints and
-conventions (e.g. programming or versioning guidelines, documentation or naming conventions)
+|RT2|Librerias|Usaremos librerias que no dependen directamente de nosotros y por tanto estaremos limitados a su funcionalidad y seguridad.
+|===
+
+.Restricciones organizativas
+|===
+|Restriccion |Descripcion
+
+|Software Development
+|The project is available in this **GitHub** repository in order to use __Multiple Integration__ options such as **link:https://travis-ci.org/Arquisoft/dechat_es6a2[Travis]** and **link:https://coveralls.io/github/Arquisoft/dechat_es6a2[Code Coverage]** options and to simplify the code sharing and reviewing.
+
+|Time
+|There is limited time to complete the project and the documentation being **30th April 2019** the limit.
+
+|===
+
+.Convenciones
+|===
+|Restriccion |Descripcion
+
+|Arc42
+|Como template para la documentacion del proyecto. Utilizamos el formato: http://arc42.org[Arc 42].
+
+|===
 ****
