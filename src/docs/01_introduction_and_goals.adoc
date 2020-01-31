@@ -5,7 +5,6 @@ Nos hemos propuesto desarrollar un sistema de gestión rutas descentralizado, si
 Buscaremos desarrollar el proyecto para que tenga un sistema con una arquitectura descentralizada, que separe el amacenamiento de datos de la aplicación que estamos desarrollando. También, tenemos como objetivo que los usuarios puedan almacenar los datos de sus rutas en sus pods.
 Los usuarios de la aplicación buscarán registrar sus rutas en el pod propio, las cuales que después podrán visualizar, se podrá compartir con los amigos imágenes, videos u otro tipo de ficheros. Puede obtener notificaciones cuando algún amigo quiera compartir una ruta con él, grupos de amigos con los que compartir 
 
-[role="arc42help"]
 === Vista de requisitos
 
 .Funcionales
@@ -27,8 +26,6 @@ Los usuarios de la aplicación buscarán registrar sus rutas en el pod propio, l
 ** Man in the middle.
 ** Cross-site request forgery.
 * Nivel de accesibilidad y usabilidad siguiendo las recomendaciones de w3c.
-
-[role="arc42help"]
 
 === Atributos de calidad
 
@@ -54,44 +51,37 @@ Los usuarios de la aplicación buscarán registrar sus rutas en el pod propio, l
 * Modular: diseño de una aplicación mediante subdivisiones de esta, independientes unas de otras.
 * Trazable: capacidad de la aplicación a seguir el rastro a las actividades realizadas en ella en todas las etapas de su ciclo de vida.
 
-[role="arc42help"]
-****
-.Contents
-The top three (max five) quality goals for the architecture whose fulfillment is of highest importance to the major stakeholders. We really mean quality goals for the architecture. Don't confuse them with project goals. They are not necessarily identical.
 
-.Motivation
-You should know the quality goals of your most important stakeholders, since they will influence fundamental architectural decisions. Make sure to be very concrete about these qualities, avoid buzzwords.
-If you as an architect do not know how the quality of your work will be judged …
+[options="header",cols="2*"]
+.Prioridad de los atributos de calidad en el proyecto
+|===
+|Prioridad | Atributo
+| 1 | Disponibilidad
+| 2 | Seguridad
+| 3 | Consistencia
+| 4 | Robustez
+| 5 | Integridad
+| 6 | Modificabilidad
+| 7 | Accesibilidad
+| 8 | Usabilidad
+| 9 | Trazable
+| 10 | Rendimiento
+| 11 | Testeabilidad
+| 12 | Modular
+| 13 | Escalabilidad
+| 14 | Interoperabilidad
+| 15 | Portabilidad
+|===
 
-.Form
-A table with quality goals and concrete scenarios, ordered by priorities
-****
+
 
 === Stakeholders
 
-[role="arc42help"]
-****
-.Contents
-Explicit overview of stakeholders of the system, i.e. all person, roles or organizations that
-
-* should know the architecture
-* have to be convinced of the architecture
-* have to work with the architecture or with code
-* need the documentation of the architecture for their work
-* have to come up with decisions about the system or its development
-
-.Motivation
-You should know all parties involved in development of the system or affected by the system.
-Otherwise, you may get nasty surprises later in the development process.
-These stakeholders determine the extent and the level of detail of your work and its results.
-
-.Form
-Table with role names, person names, and their expectations with respect to the architecture and its documentation.
-****
-
-[options="header",cols="1,2,2"]
+.Stakeholders
+[options="header",cols="2*"]
 |===
-|Role/Name|Contact|Expectations
-| _<Role-1>_ | _<Contact-1>_ | _<Expectation-1>_
-| _<Role-2>_ | _<Contact-2>_ | _<Expectation-2>_
+|Role/Name|Expectations
+| Profesorado de la asignatura | Seguir un proceso de desarrollo de la aplicación de acuerdo a lo visto en la asignatura, así como un correcto diseño y arquitectura del producto final.
+| SOLID | Realizar sistema de gestión de rutas descentralizado.
+| Equipo de desarrollo | Realizar el trabajo asignado siguiendo los requisitos establecidos en la documentación siguiendo una metodología ágil de acuerdo a lo aprendido en la asignatura.
 |===
