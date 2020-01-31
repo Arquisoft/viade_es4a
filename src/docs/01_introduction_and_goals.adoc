@@ -1,6 +1,10 @@
 [[section-introduction-and-goals]]
 == Introduction and Goals
 
+Nos hemos propuesto desarrollar un sistema de gestión rutas descentralizado, siguiendo las caracteristicas de SOLID.
+Buscaremos desarrollar el proyecto para que tenga un sistema con una arquitectura descentralizada, que separe el amacenamiento de datos de la aplicación que estamos desarrollando. También, tenemos como objetivo que los usuarios puedan almacenar los datos de sus rutas en sus pods.
+Los usuarios de la aplicación buscarán registrar sus rutas en el pod propio, las cuales que después podrán visualizar, se podrá compartir con los amigos imágenes, videos u otro tipo de ficheros. Puede obtener notificaciones cuando algún amigo quiera compartir una ruta con él, grupos de amigos con los que compartir 
+
 [role="arc42help"]
 ****
 Describes the relevant requirements and the driving forces that software architects and development team must consider. These include
