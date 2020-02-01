@@ -3,33 +3,32 @@
 
 [role="arc42help"]
 ****
-.Restricciones tecnicas
+.Restricciones técnicas
+[cols="1,5,7"]
 |===
-|Codigo|Restricción |Descripción
+||Restricción |Descripción
 
-|RT1|Implementación en React|La aplicación esta desarrollada en React. Esto quiere decir que nos limitaremos a las funcionalidades de React y Node js.
+|RT1|Implementación en React|La aplicación estará desarrollada en React. Nos restringiremos a las limitaciones que pueda tener React como framework.
 
 |RT2|Librerías|Usaremos librerías que no dependen directamente de nosotros y por tanto estaremos limitados a su funcionalidad y seguridad.
+|RT3|Principios SOLID|Seguir los principios SOLID significa hacer una aplicación descentralizada. Esto nos restringirá al uso de los PODS como almacenes de datos.
 |===
 
 .Restricciones organizativas
+[cols="1,5,7"]
 |===
-|Restricción |Descripción
+||Restricción |Descripción
 
-|Software Development
-|The project is available in this **GitHub** repository in order to use __Multiple Integration__ options such as **link:https://travis-ci.org/Arquisoft/dechat_es6a2[Travis]** and **link:https://coveralls.io/github/Arquisoft/dechat_es6a2[Code Coverage]** options and to simplify the code sharing and reviewing.
-
-|Time
-|There is limited time to complete the project and the documentation being **30th April 2019** the limit.
+|RO1|Tiempo pre-establecido|Nos tenemos que atener al itinerario de la asignatura.
 
 |===
 
 .Convenciones
+[cols="1,5,7"]
 |===
-|Restriccion |Descripcion
+||Restricción |Descripción
 
-|Arc42
-|Como template para la documentacion del proyecto. Utilizamos el formato: http://arc42.org[Arc 42].
-
+|RC1|Arc42|Se usará Arc42 como plantilla para la documentación del proyecto
+|RC2|Git|Se usará Git como herramienta de control de versiones
 |===
 ****
