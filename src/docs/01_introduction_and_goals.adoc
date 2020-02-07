@@ -18,13 +18,7 @@ Los usuarios de la aplicación buscarán registrar sus rutas en el pod propio, l
 * Facilidad de aprendizaje para interaccionar con la aplicación por parte de los usuarios novatos en un corto espacio de tiempo.
 * El usuario pueda utilizar la aplicación con un tiempo de registro de rutas óptimo (especificar en versiones posteriores).
 * No poseer de una base central de datos, que comprometa la información de los usuarios que la usen.
-* Buscar la seguridad, sin tener puntos vulnerables:
-** SQL Injection.
-** Command Injection.
-** Fuga de información.
-** Puertas traseras.
-** Man in the middle.
-** Cross-site request forgery.
+* Buscar la seguridad, sin tener puntos vulnerables.
 * Nivel de accesibilidad y usabilidad siguiendo las recomendaciones de w3c.
 
 === Atributos de calidad
