@@ -1,17 +1,12 @@
 [[section-technical-risks]]
 == Riesgos y deuda técnica
 
-Los riesgos que vamos a tener a la hora de desarrollar la aplicación van a estar relacionados con el lenguaje de React, con el cual nunca hemos trabajado.
+Los riesgos que vamos a tener a la hora de desarrollar la aplicación son:
 
-También nos vamos a encontrar el problema de tener que trabajar con la arquitectura de SOLID que desconocemos y tendremos que investigar como integrarla hacia nuestros lenguajes de programación que vamos a utilizar en el desarrollo de la app.
+*React: Nunca hemos trabajado con React, por lo que supone un riesgo, ya que hay que investigar para encontrar documentación y ver como trabajaremos con él en nuestro proyecto.
 
-Necesitaremos buscar e informarnos también acerca de como tener seguridad relativa a la red y legislación correspondiente para almacenar información sensible del usuario.
+*SOLID: Desconocemos el funcionamiento de la arquitectura SOLID y habrá que buscar en la documentación como integrarla a nuestro proyecto para el lenguaje de programación que vamos a utilizar.
 
-|===
-| *Déficit de conocimiento*
-| React
-| Solid
-| Seguridad en la red
-| Legislación para los datos sensibles
-| 
-|===
+*Almacenamiento de información sensible: Necesitaremos investigar las políticas de privacidad de la red para ver que métodos de seguridad hay que seguir para proteger esa información del usuario sensible a ser mostrada o robada por parte de otros usuarios.
+
+*Seguridad en la red: Debemos informarnos como proteger nuestra aplicación para que no haya  accesos inesperados a PODS de otros usuarios que puedan ocasionar robos de información de los propios usuarios.
