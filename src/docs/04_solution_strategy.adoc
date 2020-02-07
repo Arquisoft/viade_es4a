@@ -2,7 +2,6 @@
 == Solution Strategy
 
 
-[role="arc42help"]
 ****
 A continuación se hablará de qué compromisos o estrategia se ha seguido para implementar la solución.
 
