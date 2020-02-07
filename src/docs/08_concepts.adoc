@@ -1,9 +1,32 @@
 [[section-concepts]]
 == Cross-cutting Concepts
 
-
-[role="arc42help"]
 ****
+En este apartado se describirá, generalmente las principales regulaciones e ideas de soluciones que serán relevantes en nuestro sistema.
+
+.Modelo de dominio
+TO DO // Diagrama conceptual con los temas relacionados con un problema específico
+
+.Conceptos de experiencia de usuario (UX)
+TO DO
+
+.Conceptos de seguridad
+TO DO
+
+.Arquitectura y patrones de diseño
+TO DO
+
+."Under-the-hood"
+TO DO
+
+.Conceptos de desarrollo
+TO DO
+
+.Conceptos operacionales
+TO DO
+
+
+
 .Content
 This section describes overall, principal regulations and solution ideas that are
 relevant in multiple parts (= cross-cutting) of your system.
