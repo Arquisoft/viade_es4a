@@ -2,18 +2,33 @@
 == Architecture Constraints
 
 
-[role="arc42help"]
 ****
-.Contents
-Any requirement that constrains software architects in their freedom of design and implementation decisions or decision about the development process. These constraints sometimes go beyond individual systems and are valid for whole organizations and companies.
+.Restricciones técnicas
+[cols="1,5,7"]
+|===
+||Restricción |Descripción
 
-.Motivation
-Architects should know exactly where they are free in their design decisions and where they must adhere to constraints.
-Constraints must always be dealt with; they may be negotiable, though.
+|RT1|Implementación en React|La aplicación estará desarrollada en React. Nos restringiremos a las limitaciones que pueda tener React como framework.
 
-.Form
-Simple tables of constraints with explanations.
-If needed you can subdivide them into
-technical constraints, organizational and political constraints and
-conventions (e.g. programming or versioning guidelines, documentation or naming conventions)
+|RT2|Librerías|Usaremos librerías que no dependen directamente de nosotros y por tanto estaremos limitados a su funcionalidad y seguridad.
+|RT3|Principios SOLID|Seguir los principios SOLID significa hacer una aplicación descentralizada. Esto nos restringirá al uso de los PODS como almacenes de datos.
+|===
+
+.Restricciones organizativas
+[cols="1,5,7"]
+|===
+||Restricción |Descripción
+
+|RO1|Tiempo pre-establecido|Nos tenemos que atener al itinerario de la asignatura.
+
+|===
+
+.Convenciones
+[cols="1,5,7"]
+|===
+||Restricción |Descripción
+
+|RC1|Arc42|Se usará Arc42 como plantilla para la documentación del proyecto
+|RC2|Git|Se usará Git como herramienta de control de versiones
+|===
 ****
