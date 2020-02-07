@@ -1,7 +1,7 @@
 [[section-architecture-constraints]]
 == Architecture Constraints
 
-[role="arc42help"]
+
 ****
 .Restricciones técnicas
 [cols="1,5,7"]
