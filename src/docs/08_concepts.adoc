@@ -8,13 +8,13 @@ En este apartado se describirá, generalmente las principales regulaciones e ide
 TO DO // Diagrama conceptual con los temas relacionados con un problema específico
 
 .Conceptos de experiencia de usuario (UX)
-TO DO
+TO DO // explicacion interfaz de usuario
 
 .Conceptos de seguridad
-TO DO
+La seguridad es uno de los temas claves en este proyecto. La aplicación al estar basada en SOLID archiva la información de cada usuario en su propio POD de forma descentralizada y segura, por lo que se evitan problemas de seguridad.
 
 .Arquitectura y patrones de diseño
-TO DO
+TO DO // Arquitectura y patrones de diseño utilizados
 
 ."Under-the-hood"
 TO DO
