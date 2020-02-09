@@ -12,3 +12,15 @@ Se considera usar versiones libres como OpenStreetMap o la conocida API Google m
 ===== Decisión
 Se usará Google Maps ya que tiene una documentación mucho más extensa y el equipo es familiar en el uso de su API.
 
+=== Usar rdflib/LDFlex
+==== Problema
+Se tiene que usar algún tipo de tecnología para manejar la parte de Linked Data de SOLID y la lectura y escritura en PODS.
+
+==== Alternativas
+Para el manejo de Linked Data hay (hasta dónde se sabe) una sola librería bien documentada en JavaScript, y es rdflib. Para la escritura y lectura en PODS hay varias alternativas, pero se ha desarrollado una específica que funciona bien con SOLID y es LDFlex.
+
+==== Solución
+Se usarán estas dos librerías que parecen ser estándar a la hora de trabajar con SOLID/Linked Data. Se aprenderán ambos frameworks.
+
+
+
