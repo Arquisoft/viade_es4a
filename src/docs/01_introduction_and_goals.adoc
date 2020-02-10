@@ -1,75 +1,81 @@
 [[section-introduction-and-goals]]
 == Introduction and Goals
 
-[role="arc42help"]
-****
-Describes the relevant requirements and the driving forces that software architects and development team must consider. These include
+Nos hemos propuesto desarrollar un sistema de gestión rutas descentralizado, siguiendo las caracteristicas de SOLID.
+Buscaremos desarrollar el proyecto para que tenga un sistema con una arquitectura descentralizada, que separe el amacenamiento de datos de la aplicación que estamos desarrollando. También, tenemos como objetivo que los usuarios puedan almacenar los datos de sus rutas en sus pods.
+Los usuarios de la aplicación buscarán registrar sus rutas en el pod propio, las cuales que después podrán visualizar, se podrá compartir con los amigos imágenes, videos u otro tipo de ficheros. Puede obtener notificaciones cuando algún amigo quiera compartir una ruta con él, grupos de amigos con los que compartir 
 
-* underlying business goals, essential features and functional requirements for the system
-* quality goals for the architecture
-* relevant stakeholders and their expectations
-****
+=== Vista de requisitos
 
-=== Requirements Overview
+.Funcionales
+* Los usuarios que utilicen la aplicación deberán de poseer un pod de SOLID.
+* El sistema deberá de notificar al usuario cuando quieran compartir un archivo con él.
+* Los usuarios podran crear grupos de amigos con quienes ellos puedan compartir una ruta.
+* Para registrar las rutas los usuarios deberán de estar conectados y autentificados en SOLID.
+* El sistema deberá poder ver las rutas cargadas por usuarios que estén utilizando una app diferente.
 
-[role="arc42help"]
-****
-.Contents
-Short description of the functional requirements, driving forces, extract (or abstract)
-of requirements. Link to (hopefully existing) requirements documents
-(with version number and information where to find it).
+.No funcionales
+* Facilidad de aprendizaje para interaccionar con la aplicación por parte de los usuarios novatos en un corto espacio de tiempo.
+* El usuario pueda utilizar la aplicación con un tiempo de registro de rutas óptimo (especificar en versiones posteriores).
+* No poseer de una base central de datos, que comprometa la información de los usuarios que la usen.
+* Buscar la seguridad, sin tener puntos vulnerables.
+* Nivel de accesibilidad y usabilidad siguiendo las recomendaciones de w3c.
 
-.Motivation
-From the point of view of the end users a system is created or modified to
-improve support of a business activity and/or improve the quality.
+=== Atributos de calidad
 
-.Form
-Short textual description, probably in tabular use-case format.
-If requirements documents exist this overview should refer to these documents.
+* Accesibilidad: diseño de una aplicación accesible para personas con discapacidades 
+* Disponibilidad: diseño de una aplicación que asegure un cierto grado absoluto de continuidad operacional durante un periodo de duración dado.
+* Modificabilidad: diseño de una aplicación con un software mantenible en el tiempo.
+* Rendimiento: capacidad del sistema a realizar operaciones sin un uso excesivo de recursos (memoria, datos, etc).
+* Seguridad: diseño de una aplicación que no sea vulnerable a:
+** SQL Injection.
+** Comand Injection.
+** Fuga de información.
+** Puertas traseras.
+** Man in the middle.
+** Cross-site request forgery.
+* Testeabilidad: diseño de una aplicación que sea capaz de pasar un software mínimo de pruebas para comprobar el correcto funcionamiento de esta.
+* Usabilidad: diseño de una aplicación que sea fácil de usar por parte de los usuarios que interactúen con ella.
+* Escalabilidad: capacidad de la apliación para albergar un mayor volumen de datos.
+* Interoperabilidad: capacidad de la aplicación para interactuar y coexistir con otros sistemas.
+* Portabilidad: característica que posee un software para ejecutarse en diferentes plataformas.
+* Integridad: diseño de una aplicación que mantenga la información exacta a como fue generada sin ser editada por usuarios o procesos no autizados a ello.
+* Consistencia: diseño de una aplicación que mantenga sus datos correctos en todo momento.
+* Robustez: capacidad de la aplicación para actuar y sobreponerse a errores no esperados en tiempo de ejecución.
+* Modular: diseño de una aplicación mediante subdivisiones de esta, independientes unas de otras.
+* Trazable: capacidad de la aplicación a seguir el rastro a las actividades realizadas en ella en todas las etapas de su ciclo de vida.
 
-Keep these excerpts as short as possible. Balance readability of this document with potential redundancy w.r.t to requirements documents.
-****
 
-=== Quality Goals
+[options="header",cols="2*"]
+.Prioridad de los atributos de calidad en el proyecto
+|===
+|Prioridad | Atributo
+| 1 | Disponibilidad
+| 2 | Seguridad
+| 3 | Consistencia
+| 4 | Robustez
+| 5 | Integridad
+| 6 | Modificabilidad
+| 7 | Accesibilidad
+| 8 | Usabilidad
+| 9 | Trazable
+| 10 | Rendimiento
+| 11 | Testeabilidad
+| 12 | Modular
+| 13 | Escalabilidad
+| 14 | Interoperabilidad
+| 15 | Portabilidad
+|===
 
-[role="arc42help"]
-****
-.Contents
-The top three (max five) quality goals for the architecture whose fulfillment is of highest importance to the major stakeholders. We really mean quality goals for the architecture. Don't confuse them with project goals. They are not necessarily identical.
 
-.Motivation
-You should know the quality goals of your most important stakeholders, since they will influence fundamental architectural decisions. Make sure to be very concrete about these qualities, avoid buzzwords.
-If you as an architect do not know how the quality of your work will be judged …
-
-.Form
-A table with quality goals and concrete scenarios, ordered by priorities
-****
 
 === Stakeholders
 
-[role="arc42help"]
-****
-.Contents
-Explicit overview of stakeholders of the system, i.e. all person, roles or organizations that
-
-* should know the architecture
-* have to be convinced of the architecture
-* have to work with the architecture or with code
-* need the documentation of the architecture for their work
-* have to come up with decisions about the system or its development
-
-.Motivation
-You should know all parties involved in development of the system or affected by the system.
-Otherwise, you may get nasty surprises later in the development process.
-These stakeholders determine the extent and the level of detail of your work and its results.
-
-.Form
-Table with role names, person names, and their expectations with respect to the architecture and its documentation.
-****
-
-[options="header",cols="1,2,2"]
+.Stakeholders
+[options="header",cols="2*"]
 |===
-|Role/Name|Contact|Expectations
-| _<Role-1>_ | _<Contact-1>_ | _<Expectation-1>_
-| _<Role-2>_ | _<Contact-2>_ | _<Expectation-2>_
+|Role/Name|Expectations
+| Profesorado de la asignatura | Seguir un proceso de desarrollo de la aplicación de acuerdo a lo visto en la asignatura, así como un correcto diseño y arquitectura del producto final.
+| SOLID | Realizar sistema de gestión de rutas descentralizado.
+| Equipo de desarrollo | Realizar el trabajo asignado siguiendo los requisitos establecidos en la documentación siguiendo una metodología ágil de acuerdo a lo aprendido en la asignatura.
 |===
