@@ -1,17 +1,22 @@
 [[section-technical-risks]]
-== Risks and Technical Debts
+== Riesgos y deuda técnica
 
+Los riesgos que vamos a tener a la hora de desarrollar la aplicación son:
 
-[role="arc42help"]
-****
-.Contents
-A list of identified technical risks or technical debts, ordered by priority
+.Riesgos
 
-.Motivation
-“Risk management is project management for grown-ups” (Tim Lister, Atlantic Systems Guild.) 
+*React: Nunca hemos trabajado con React, por lo que supone un riesgo, ya que hay que investigar para encontrar documentación y ver como trabajaremos con él en nuestro proyecto.
 
-This should be your motto for systematic detection and evaluation of risks and technical debts in the architecture, which will be needed by management stakeholders (e.g. project managers, product owners) as part of the overall risk analysis and measurement planning.
+*SOLID: Desconocemos el funcionamiento de la arquitectura SOLID y habrá que buscar en la documentación como integrarla a nuestro proyecto para el lenguaje de programación que vamos a utilizar.
 
-.Form
-List of risks and/or technical debts, probably including suggested measures to minimize, mitigate or avoid risks or reduce technical debts.
-****
+*Almacenamiento de información sensible: Necesitaremos investigar las políticas de privacidad de la red para ver que métodos de seguridad hay que seguir para proteger esa información del usuario sensible a ser mostrada o robada por parte de otros usuarios.
+
+*Seguridad en la red: Debemos informarnos como proteger nuestra aplicación para que no haya  accesos inesperados a PODS de otros usuarios que puedan ocasionar robos de información de los propios usuarios.
+
+.Medidas para reducirlos/eliminarlos
+
+Se van a tomar medidas para que estos riesgos se vean reducidos o eliminados durante el desarrollo de nuestro proyecto para llegar a conseguir el objetivo de desarrollar la aplicación.
+
+*Investigar: Antes de iniciar el proyecto, buscaremos información para ver como funciona un poco la arquitectura/lenguaje que vayamos a desarrollar, que se irá complementando con las búsquedas necesarias para ir desarrollando la aplicación y que vayan siendo necesarias.
+
+*Realización de tutoriales: React tiene una serie de tutoriales de creación de una aplicación que nos puede ayudar a ver como se trabaja con ese lenguaje de programación.
