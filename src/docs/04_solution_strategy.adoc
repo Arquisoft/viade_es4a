@@ -1,5 +1,5 @@
 [[section-solution-strategy]]
-== Solution Strategy
+== Estrategia de solución
 
 
 ****
@@ -12,7 +12,7 @@ En cuánto a las tecnologías, se remite a la restricciones RT1, RT2 y RT3. Much
 **Descomposición del sistema**
 
 La arquitectura adoptada está bastante restringida debido al requisito RT3. Al ser una aplicación descentralizada, la base de datos será el POD de cada usuario. Se tendrá un módulo de comunicación con los PODS basado en la librería LDFlex y un módulo de tratamiento de datos (Linked Data) basado principalmente en rdflib.
-Debido a la restricción RT1, toda la parte de interfaz gráfica estará situada "junto" a lógica y dominio. (Seguramente) se seguirá la estructura adoptada por la aplicación de SOLID en React de ejemplo, separando en varios documentos JavaScript lo que en otro caso sería CSS y HTML, e implementando la lógica en un único fichero por componente relevante.
+Debido a la restricción RT1, toda la parte de interfaz gráfica estará situada "junto" a lógica y dominio. Se seguirá la estructura adoptada por la aplicación de SOLID en React de ejemplo, separando en varios documentos JavaScript lo que en otro caso sería CSS y HTML, e implementando la lógica en un único fichero por componente relevante.
 
 
 **Cómo alcanzar los atributos de calidad**
