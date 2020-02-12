@@ -1,24 +1,32 @@
 [[section-solution-strategy]]
-== Solution Strategy
+== Estrategia de solución
 
 
-[role="arc42help"]
 ****
-.Contents
-A short summary and explanation of the fundamental decisions and solution strategies, that shape the system's architecture. These include
+A continuación se hablará de qué compromisos o estrategias se han seguido para implementar la solución.
 
-* technology decisions
-* decisions about the top-level decomposition of the system, e.g. usage of an architectural pattern or design pattern
-* decisions on how to achieve key quality goals
-* relevant organizational decisions, e.g. selecting a development process or delegating certain tasks to third parties.
+**Decisiones tecnológicas**
 
-.Motivation
-These decisions form the cornerstones for your architecture. They are the basis for many other detailed decisions or implementation rules.
+En cuánto a las tecnologías, se remite a la restricciones RT1, RT2 y RT3. Mucha parte de la tecnología usada para el desarrollo de la solución forma parte de restricciones. Sí se ha sugerido Visual Studio Code como editor de texto en el grupo, pero no se ha fijado un editor para todos como tal. 
 
-.Form
-Keep the explanation of these key decisions short.
+**Descomposición del sistema**
 
-Motivate what you have decided and why you decided that way,
-based upon your problem statement, the quality goals and key constraints.
-Refer to details in the following sections.
-****
+La arquitectura adoptada está bastante restringida debido al requisito RT3. Al ser una aplicación descentralizada, la base de datos será el POD de cada usuario. Se tendrá un módulo de comunicación con los PODS basado en la librería LDFlex y un módulo de tratamiento de datos (Linked Data) basado principalmente en rdflib.
+Debido a la restricción RT1, toda la parte de interfaz gráfica estará situada "junto" a lógica y dominio. Se seguirá la estructura adoptada por la aplicación de SOLID en React de ejemplo, separando en varios documentos JavaScript lo que en otro caso sería CSS y HTML, e implementando la lógica en un único fichero por componente relevante.
+
+
+**Cómo alcanzar los atributos de calidad**
+
+Se han explicitado muchos atributos de calidad pero entre los más importantes se encuentran la disponibilidad, seguridad consistencia o robustez.
+
+Para la disponibilidad, (posiblemente) se usará Docker para el despliegue de la aplicación. Usando este entorno de trabajo se eliminarán muchos riesgos de un despliegue "a mano".
+
+Para la seguridad, seguir una buena metodología de programación y respetar el uso de patrones conocidos ayudará a no caer en errores que puedan provocar fallos de seguridad de inyección (SQL, JavaScript). Además, se consultará documentación de otros proyectos SOLID e incorporaremos sus medidas de seguridad.
+
+En cuanto a la consistencia, el equipo se asegurará de aprender y manejar bien la librería rdflib, que se usará para rescatar y escribir datos en los pods correspondientes. De esta manera no tendría por qué existir ningun problema de consistencia. También sería interesante manejar el concepto de sesión.
+
+Por último, seguiremos las recomendaciones del entorno SOLID para el manejo de errores y así asegurarnos de que la aplicación sea robusta y resistente a fallos.
+
+**Decisiones de organización**
+
+Cada semana se repartirán responsabilidades a cada miembro del grupo. Las decisiones que no se puedan tomar en la reunión se tomarán a lo largo de la semana vía mensajería instantánea. Se intentarán reflejar todas las decisiones y discusiones en el repositorio de GitHub, haciendo uso de la wiki y de los issues.
