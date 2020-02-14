@@ -42,14 +42,14 @@ The easiest way to create a react app is to use the project [create react app](h
 In order to use this project, the only required step is to execute (in the directory that we want the project to be generated, in our case **/webapps**):
 ```javascript
 cd /webapps
-npx create-react-app viade_0
+npx create-react-app viade_es4a
 ```
 This code will work considering that we have properly installed node.
 The name *viade_0* is the name of our application. The generator will generate a directory with the app inside. 
 If we want to start our app in a local server, we just need to type:
 
 ```javascript
-cd viade_0
+cd viade_es4a
 npm start
 ```
 We can see our application in http://localhost:3000 . It is important to understand that this method is only good for develpment purposes because the react (JSX) code from react is translated on the fly (thus, it is slow). 
@@ -86,7 +86,7 @@ deploy:
 ```
 We also need to configure the file `package.json`. In this file we will add a new line indicating where our application will be deployed:
 ```json
-"homepage": "https://arquisoft.github.io/viade_0/",
+"homepage": "https://arquisoft.github.io/viade_es4a/",
 ```
 
 As a final step, we need to make sure that we are using the gh-pages branch as our repository page (this is configured in the settings part of our repository).
@@ -143,7 +143,7 @@ So now our site with the documentation is in build/docs. The idea is to deploy i
 ```json
 "scripts": {
 
-    "docs": "asciidoctor -D build/docs -a imagesdir=./images -r asciidoctor-diagram src/docs/index.adoc && cp -R src/docs/images build/docs",
+   "docs": "shx rm -rf build/docs && asciidoctor -D build/docs -a imagesdir=./images -r asciidoctor-diagram src/docs/index.adoc && shx cp -R src/docs/images build/docs",
 
  }
 ```
@@ -175,7 +175,7 @@ deploy:
 
 In this file we need to pay attention to the `before_install` section where we are installing the dependencies for running asciidoctor (with PlantUML support) and then, after running `npm run build`, execute `npm run docs` that will generate the docs inside the build directory. We do not have to change anything else as we are deploying the build directory in the next section. If everything worked properly we should be able to see the documentation under:
 
-[https://arquisoft.github.io/viade_0/docs/index.html](https://arquisoft.github.io/viade_0/docs/index.html)
+[https://arquisoft.github.io/viade_es4a/docs/index.html](https://arquisoft.github.io/viade_es4a/docs/index.html)
 
 ## More about testing
 
