@@ -2,7 +2,7 @@
 == System Scope and Context
 === Business Context
 
-[role="arc42help"]
+
 ****
 Nuestra aplicacion de rutas descentralizada permitira a los usuarios logearse a traves de su POD que es su identificador en la comunidad de SOLID. El usuario podra
 subir sus rutas con imagenes de esta. Las rutas y las imagenes quedaran almacenadas en el POD del usuario, lo que hace que este sea su unico propietario.
@@ -12,7 +12,7 @@ image::images/DiagramaNegocio.png[Diagrama de Negocio,500,250]
 ****
 === Technical Context
 
-[role="arc42help"]
+
 ****
 En el diagrama aparece, ademas del usuario, los profesores encargados de corregir el proyecto y los miembros de SOLID que valoran la aplicación. Lo que aumenta el numero de stakeholders implicados.
 Al iniciar sesion mediante SOLID se crea en el POD del usuario una carpeta en la que se guardaran las rutas subidas y una subcarpeta con las imagenes.
