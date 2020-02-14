@@ -3,7 +3,7 @@
 En este apartado vamos a explicar algunos de los requisitos de calidad de este proyecto.
 
 === Quality Tree
-image::images/qualityTree.png[]
+image::qualityTree.png["qualityTree"]
 
 === Quality Scenarios
 
