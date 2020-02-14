@@ -1,26 +1,26 @@
 [[section-design-decisions]]
-== Design Decisions
+== Decisiones de diseño
+
+=== Usar Google Maps
+
+===== Problema
+Si se quiere reflejar las rutas en un mapa, se deberá usar algún API de representación de mapas.
+
+===== Alternativas
+Se considera usar versiones libres como OpenStreetMap o la conocida API Google maps.
+
+===== Decisión
+Se usará Google Maps ya que tiene una documentación mucho más extensa y el equipo es familiar en el uso de su API.
+
+=== Usar rdflib/LDFlex
+==== Problema
+Se tiene que usar algún tipo de tecnología para manejar la parte de Linked Data de SOLID y la lectura y escritura en PODS.
+
+==== Alternativas
+Para el manejo de Linked Data hay (hasta dónde se sabe) una sola librería bien documentada en JavaScript, y es rdflib. Para la escritura y lectura en PODS hay varias alternativas, pero se ha desarrollado una específica que funciona bien con SOLID y es LDFlex.
+
+==== Solución
+Se usarán estas dos librerías que parecen ser estándar a la hora de trabajar con SOLID/Linked Data. Se aprenderán ambos frameworks.
 
 
-[role="arc42help"]
-****
-.Contents
-Important, expensive, large scale or risky architecture decisions including rationals.
-With "decisions" we mean selecting one alternative based on given criteria.
 
-Please use your judgement to decide whether an architectural decision should be documented
-here in this central section or whether you better document it locally
-(e.g. within the white box template of one building block).
-
-Avoid redundancy. Refer to section 4, where you already captured the most important decisions of your architecture.
-
-.Motivation
-Stakeholders of your system should be able to comprehend and retrace your decisions.
-
-.Form
-Various options:
-
-* List or table, ordered by importance and consequences or:
-* more detailed in form of separate sections per decision
-* ADR (architecture decision record) for every important decision
-****
