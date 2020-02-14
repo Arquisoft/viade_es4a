@@ -1,67 +1,28 @@
 [[section-concepts]]
 == Cross-cutting Concepts
 
-
-[role="arc42help"]
 ****
-.Content
-This section describes overall, principal regulations and solution ideas that are
-relevant in multiple parts (= cross-cutting) of your system.
-Such concepts are often related to multiple building blocks.
-They can include many different topics, such as
+En este apartado se describirá, generalmente las principales regulaciones e ideas de soluciones que serán relevantes en nuestro sistema.
 
-* domain models
-* architecture patterns or design patterns
-* rules for using specific technology
-* principal, often technical decisions of overall decisions
-* implementation rules
+.Modelo de dominio
+TO DO // Diagrama conceptual con los temas relacionados con un problema específico
 
-.Motivation
-Concepts form the basis for _conceptual integrity_ (consistency, homogeneity)
-of the architecture. Thus, they are an important contribution to achieve inner qualities of your system.
+.Conceptos de experiencia de usuario (UX)
+TO DO // explicacion interfaz de usuario que se añadirá cuando se decida.
 
-Some of these concepts cannot be assigned to individual building blocks
-(e.g. security or safety). This is the place in the template that we provided for a
-cohesive specification of such concepts.
+.Conceptos de seguridad
+La seguridad es uno de los temas claves en este proyecto. La aplicación al estar basada en SOLID archiva la información de cada usuario en su propio POD de forma descentralizada y segura, por lo que se evitan problemas de seguridad.
 
-.Form
-The form can be varied:
+.Arquitectura y patrones de diseño
+Se utilizará principalmente la arquitectura REACT para el diseño de la interfaz, la API de Google Maps para trabajar con las rutas y se trabajara con SOLID para almacenar la información personal de cada usuario en su propio POD.
+Los patrones de diseño se añadirán más adelante.
 
-* concept papers with any kind of structure
-* cross-cutting model excerpts or scenarios using notations of the architecture views
-* sample implementations, especially for technical concepts
-* reference to typical usage of standard frameworks (e.g. using Hibernate for object/relational mapping)
+."Under-the-hood"
+TO DO // Se añadirá más adelante
 
-.Structure
-A potential (but not mandatory) structure for this section could be:
+.Conceptos de desarrollo
+A lo largo del proyecto, el equipo tendrá que
 
-* Domain concepts
-* User Experience concepts (UX)
-* Safety and security concepts
-* Architecture and design patterns
-* "Under-the-hood"
-* development concepts
-* operational concepts
-
-Note: it might be difficult to assign individual concepts to one specific topic
-on this list.
-
-image:08-Crosscutting-Concepts-Structure-EN.png["Possible topics for crosscutting concepts"]
-****
-
-
-=== _<Concept 1>_
-
-_<explanation>_
-
-
-
-=== _<Concept 2>_
-
-_<explanation>_
-
-...
-
-=== _<Concept n>_
-
-_<explanation>_
+* Plantear y desarrollar la idea sobre la que se trabajará después
+* Implementar dicha idea.
+* Testear y corregir los errores que se puedan producir.
