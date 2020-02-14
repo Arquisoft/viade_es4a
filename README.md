@@ -9,9 +9,9 @@ This project shows how to create a new react webapp and configure it using travi
 ## Setting up the enviroment
 We are going to prepare the enviroment using docker. This way we will ensure that the setup will work without depending on our local setup. Lets create a Ubuntu 18.04LTS container as our development enviroment:
 ```
-docker run -it -v "$PWD/Projects/viade_0":/webapps -p 3000:3000 --name viade_0 ubuntu:18.04
+docker run -it -v "$PWD/Projects/viade_es4a":/webapps -p 3000:3000 --name viade_es4a ubuntu:18.04
 ```
-Note: "$PWD/Projects/viade_0" will be the route of the folder (in your machine) where you want to store the project. You should create this folder.
+Note: "$PWD/Projects/viade_es4a" will be the route of the folder (in your machine) where you want to store the project. You should create this folder.
 Change the route accordingly.
 
 This Ubuntu 18.04 image does not have Node installed. We could have chosen here a docker image with node but we are using this one in order to illustrate how to **install node** in Ubuntu:
@@ -45,7 +45,7 @@ cd /webapps
 npx create-react-app viade_es4a
 ```
 This code will work considering that we have properly installed node.
-The name *viade_0* is the name of our application. The generator will generate a directory with the app inside. 
+The name *viade_es4a* is the name of our application. The generator will generate a directory with the app inside. 
 If we want to start our app in a local server, we just need to type:
 
 ```javascript
@@ -56,12 +56,12 @@ We can see our application in http://localhost:3000 . It is important to underst
 
 If we want to 'compile' the code and create html, javascript and css files only, we can execute `npm run build`.
 
-After checking that everything is working propertly, we need to create a new git repository to host our application and push the application to it. In my case I will create the repository **viade_0**.
+After checking that everything is working propertly, we need to create a new git repository to host our application and push the application to it. In my case I will create the repository **viade_es4a**.
 
 
 ## Configure travis
 Create a [Travis](https://travis-ci.org/) account. 
-It is important to note that travis is free for our GitHub public respositories. Configure Travis to monitor the git repository where you host your app (in my case **viade_0**). Everytime that Travis detects a new commit it will test the application and if the tests are correct, the application will be deployed automatically. For this to work, we need to give Travis permissions to work in our GitHub account:
+It is important to note that travis is free for our GitHub public respositories. Configure Travis to monitor the git repository where you host your app (in my case **viade_es4a**). Everytime that Travis detects a new commit it will test the application and if the tests are correct, the application will be deployed automatically. For this to work, we need to give Travis permissions to work in our GitHub account:
   * Configure a GitHub access token. This is done in the "global settings page>Developer Settings>Personal access tokens".  
   * Create an enviroment variable in travis called github_token with the value obtained in the previous step.
 
