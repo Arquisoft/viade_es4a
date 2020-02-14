@@ -33,4 +33,4 @@ image::qualityTree.png["qualityTree"]
 |Será posible compartir información de las rutas de manera descentralizada de forma que el usuario no tenga ningún problema y sea un entorno fácil de entender.
 |Alto
 |===
-****
+
