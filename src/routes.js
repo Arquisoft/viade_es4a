@@ -28,11 +28,6 @@ const privateRoutes = [
     component: Profile
   },
   {
-    id: 'upload-route',
-    path:'/upload-route',
-    component: UploadRoute
-  },
-  {
     id: 'tictactoe',
     path: '/tictactoe',
     component: GameList

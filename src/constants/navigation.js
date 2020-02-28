@@ -26,12 +26,6 @@ export const NavigationItems = [
     label: 'navBar.text-editor',
     to: '/text-editor'
   },
-  {
-    id:'upload-route',
-    icon: ' ',
-    label: ' ',
-    to: '/upload-route'
-  }
 ];
 
 export const ProfileOptions = [
