@@ -6,7 +6,7 @@ import Profile from './Profile';
 import TextEditor from './TextEditor';
 import { GamePage, GameList } from './TicTacToe';
 import { FormModelConverter, FormModelRenderer } from './FormModel';
-import addRoute from './AddRoute';
+import addRoute from './addRoute';
 
 export {
   Login,
