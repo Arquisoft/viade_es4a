@@ -13,7 +13,8 @@ import {
   GamePage,
   FormModelConverter,
   FormModelRenderer,
-  TextEditor
+  TextEditor,
+  addRoute
 } from './containers';
 
 const privateRoutes = [
@@ -51,6 +52,11 @@ const privateRoutes = [
     id: 'formmodelrenderer',
     path: '/formmodel/renderer',
     component: FormModelRenderer
+  },
+  {
+    id:'addRoute',
+    path: '/addRoute',
+    component: addRoute
   }
 ];
 
