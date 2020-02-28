@@ -4,6 +4,7 @@
   "homepage": "https://arquisoft.github.io/viade_0/",
   "private": true,
   "dependencies": {
+    "react-google-maps": "^9.4.5",
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-brands-svg-icons": "^5.12.1",
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
