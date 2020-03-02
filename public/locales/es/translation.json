@@ -53,6 +53,8 @@
     "formModelRender": "Form Model Render",
     "formModelConvert": "Form Model Convert",
     "text-editor": "Editor de Textos",
+    "addRoute":"Add Route",
+    "viewRoute":"View Route",
     "changeLanguage": "Cambiar Lenguaje",
     "languages": {
       "en": "English (Inglés)",

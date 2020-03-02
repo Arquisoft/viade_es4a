@@ -1,9 +1,9 @@
 import React from 'react';
-import readJSON from './parser';
 
 
 
-const addRoute= ()=>{
+
+const viewRoute= ()=>{
     
     let ruta="Ruta";
     const handleSubmit=(event)=>{
@@ -14,11 +14,11 @@ const addRoute= ()=>{
             <div>
                 <label>Introduce el nombre:</label>
                 <input type="text" />
-                <label>{readJSON}{ruta}</label>
+                <label>{ruta}</label>
             </div>
             <input type="submit" action="Submit"/>
         </form>
     );
 };
 
-export default addRoute;
+export default viewRoute;
