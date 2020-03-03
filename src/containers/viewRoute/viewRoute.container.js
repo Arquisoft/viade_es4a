@@ -5,7 +5,7 @@ import React from 'react';
 
 const viewRoute= ()=>{
     
-    let ruta="Ruta";
+    let ruta="Ruta1";
     const handleSubmit=(event)=>{
         alert('A name was submitted: ');
     };
