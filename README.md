@@ -7,17 +7,17 @@
 This project shows how to create a new react webapp and configure it using travis in order to enable continuous integration for students of Oviedo's University.
 
 ## Contributors
- *Israel Ménez
- *Antonio Flambó
- *Aique Montes
- *Raúl García
- *Pelayo Rodríguez
- *Adrián Moro
+ *Israel Méndez.
+ *Antonio Flambó.
+ *Aique Montes.
+ *Raúl García.
+ *Pelayo Rodríguez.
+ *Adrián Moro.
 
 ## Requirements
-*Node js : You’ll need to have Node 8.16.0 or Node 10.16.0 or later version on your local development machine.
-*Ruby
-*AsciiDoctor : You’ll need to have asciiDoctor-diagrams.
+  *Node js : You’ll need to have Node 8.16.0 or Node 10.16.0 or later version on your local development machine.
+  *Ruby.
+  *AsciiDoctor : You’ll need to have asciiDoctor-diagrams.
 
 ```
 sudo apt-get update
