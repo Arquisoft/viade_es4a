@@ -6,7 +6,7 @@
 
 This project shows how to create a new react webapp and configure it using travis in order to enable continuous integration for students of Oviedo's University.
 
-##Contributors
+## Contributors
  *Israel Ménez
  *Antonio Flambó
  *Aique Montes
@@ -14,7 +14,7 @@ This project shows how to create a new react webapp and configure it using travi
  *Pelayo Rodríguez
  *Adrián Moro
 
-##Requirements
+## Requirements
 *Node js : You’ll need to have Node 8.16.0 or Node 10.16.0 or later version on your local development machine.
 *Ruby
 *AsciiDoctor : You’ll need to have asciiDoctor-diagrams.
@@ -26,7 +26,7 @@ sudo gem install asciidoctor asciidoctor-diagram
 sudo apt-get -y install graphviz
 ```
 
-##Run project
+## Run project
 
 ```
 npm install
@@ -35,7 +35,7 @@ npm start
 
 If you have installed yet, you don't need npm install, you can use npm update for actualize the dependencies.
 
-##Build documentation
+## Build documentation
 
 ```
 Node and Ruby are required. 
