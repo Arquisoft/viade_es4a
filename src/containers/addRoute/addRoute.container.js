@@ -4,25 +4,35 @@ import readJSON from './parser';
 
 
 const addRoute= ()=>{
-    
-    var fs = require('fs');
+    let name='';
+    /*var fs = require('fs');
     fs.readFile('./prueba.json',(err,data)=>{
         if(err) throw err;
         let prueba=JSON.parse(data);
         console.log(prueba.name);
-    });
+    });*/
 
 
     let ruta="Ruta";
     const handleSubmit=(event)=>{
-        alert('A name was submitted: ');
+        //let json="{'name':'"+event.name+"'}";
+        alert('A name was submitted: '+name);
     };
+    
+    const handleChange=(event)=> {
+        name=event.target.value;
+    }
+
+    
     return(
         <form onSubmit={handleSubmit}>
             <div>
                 <label>Introduce el nombre:</label>
+                <input type="text" id="name" value={name} onChange={handleChange}/>
+            </div>
+            <div>
+                <label>Intoduce la duracion de la ruta:</label>
                 <input type="text" />
-                <label>{readJSON}{ruta}</label>
             </div>
             <input type="submit" action="Submit"/>
         </form>
