@@ -3,7 +3,7 @@
 En este apartado vamos a explicar algunos de los requisitos de calidad de este proyecto.
 
 === Quality Tree
-image::images/qualityTree.png[]
+image::qualityTree.png["qualityTree"]
 
 === Quality Scenarios
 
@@ -32,5 +32,5 @@ image::images/qualityTree.png[]
 |Usabilidad
 |Será posible compartir información de las rutas de manera descentralizada de forma que el usuario no tenga ningún problema y sea un entorno fácil de entender.
 |Alto
+|===
 
-****
