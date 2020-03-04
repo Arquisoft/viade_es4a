@@ -1,23 +1,19 @@
 import React from 'react';
-
+import loadRoute from './loadRoute';
 
 
 
 const viewRoute= ()=>{
     
-    let ruta="Ruta1";
-    const handleSubmit=(event)=>{
-        alert('A name was submitted: ');
-    };
+    let a= new loadRoute();
+    var prueba1=JSON.parse('{"name":"Ruta 1","duration":"45"}');
+    var prueba2=JSON.parse('{"name":"Ruta 2","duration":"30"}');
+    var prueba=[prueba1,prueba2];
+    
     return(
-        <form onSubmit={handleSubmit}>
-            <div>
-                <label>Introduce el nombre:</label>
-                <input type="text" />
-                <label>{ruta}</label>
-            </div>
-            <input type="submit" action="Submit"/>
-        </form>
+        <div>
+            {a.concatenar(prueba)}
+        </div>
     );
 };
 
