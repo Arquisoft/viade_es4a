@@ -15,7 +15,8 @@ import {
   FormModelRenderer,
   TextEditor,
   addRoute,
-  viewRoute
+  viewRoute,
+  UploadRoute
 } from './containers';
 
 const privateRoutes = [
@@ -63,6 +64,11 @@ const privateRoutes = [
     id:'viewRoute',
     path:'/viewRoute',
     component: viewRoute
+  },
+  {
+    id:'uploadRoute',
+    path:'/uploadRoute',
+    component: UploadRoute
   }
 ];
 

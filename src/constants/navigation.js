@@ -37,6 +37,12 @@ export const NavigationItems = [
     icon:'/img/icon/tictactoe.svg',
     label:'navBar.viewRoute',
     to: '/viewRoute'
+  },
+  {
+    id:'uploadRoute',
+    icon:'/img/icon/tictactoe.svg',
+    label:'navBar.uploadRoute',
+    to: '/uploadRoute'
   }
 ];
 
