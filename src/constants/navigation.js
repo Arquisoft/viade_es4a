@@ -37,6 +37,12 @@ export const NavigationItems = [
     icon:'/img/icon/tictactoe.svg',
     label:'navBar.viewRoute',
     to: '/viewRoute'
+  },
+  {
+    id:'friends',
+    icon:'/img/icon/tictactoe.svg',
+    label:'navBar.friends',
+    to: '/friends'
   }
 ];
 
