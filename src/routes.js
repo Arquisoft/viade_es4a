@@ -3,6 +3,7 @@ import { PrivateLayout, PublicLayout, NotLoggedInLayout } from '@layouts';
 import { BrowserRouter as Router, Switch, Redirect } from 'react-router-dom';
 
 import {
+  Mapa,
   Login,
   Register,
   PageNotFound,
@@ -24,6 +25,11 @@ const privateRoutes = [
     id: 'welcome',
     path: '/welcome',
     component: Welcome
+  },
+  {
+    id: 'Mapa',
+    path: '/mapa',
+    component: Mapa
   },
   {
     id: 'profile',
