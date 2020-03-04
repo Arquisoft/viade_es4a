@@ -6,11 +6,15 @@ const UploadRoute = (props) => {
 
     const handleSubmit = async (e) => {
         const fileReader = new FileReader();
-
+        fileReader.fileName=e.target.files[0].name;
+        const {webId} = props;
+        const x =e;
         fileReader.onload = async (event) => {
             const fc   = new FC( auth );
-            console.log(event.target.result);
-            await fc.createFile("https://israelmnrg.solid.community/public/pruebaRutas.geojson", event.target.result, "application/geo+json", {});
+            const nombre=event.target.fileName;
+            const url=webId.split("profile/card#me")[0]+"public/"+nombre;
+            console.log(url);
+            await fc.createFile(url, event.target.result, "application/geo+json", {});
             console.log("subido");
         };
         fileReader.readAsText(e.target.files[0]);
