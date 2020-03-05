@@ -82,7 +82,7 @@
     "welcome": "Bienvenido",
     "doneMessage": "¿Terminaste?",
     "title": "<0>Esta aplicacion fue generada con <1>Solid React SDK by inrupt.</1></0>",
-    "description": "<0>El <1>Solid React SDK by inrupt</1>  es una combinación de librerias, componentes, documentación, buenas prácticas y un generador de aplicaciones diseñada para acelerar el desarrollo de aplicaciones Solid de alta calidad:</0>",
+    "description": "<0>Esta es una modificación para la implementación del módulo de rutas viade </0>",
     "libraryList": "<0><0><0> Componentes reutilizables </0>que puedes utilizar en tus propias aplicaciones.</0><1><0>Generador de aplicaciones</0>, incorpora todos los componentes y las buenas practicas en una misma aplicacion para el desarrollador. Nota: La aplicaciones Solid React, muestra el uso de los componentes instalados por el generador. No debe ser considerado como un servicio que Inrupt provee, y está sujeto a cambios.</0><0>Patrones de buenas prácticas que puedes referenciar como ejemplos para lograr resolver diferentes situaciones.</1></0>",
     "fairUsageTitle": "Condiciones de uso",
     "fairUsageText": "Los logos de Solid y Inrupt incluidos en este SDK son exclusivamente para ejemplo. Esperamos que los desarrolladores que utilicen nuestro SDK para propósitos comerciales los actualicen con sus propios logos.",
