@@ -78,4 +78,5 @@ Los usuarios de la aplicación buscarán registrar sus rutas en el pod propio, l
 | Profesorado de la asignatura | Seguir un proceso de desarrollo de la aplicación de acuerdo a lo visto en la asignatura, así como un correcto diseño y arquitectura del producto final.
 | SOLID | Realizar sistema de gestión de rutas descentralizado.
 | Equipo de desarrollo | Realizar el trabajo asignado siguiendo los requisitos establecidos en la documentación siguiendo una metodología ágil de acuerdo a lo aprendido en la asignatura.
+| Inrupt | Obtener una aplicación descentralizada para tener un almacen de rutas
 |===
