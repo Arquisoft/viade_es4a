@@ -4,8 +4,8 @@ import PageNotFound from './PageNotFound';
 import Welcome from './Welcome';
 import Profile from './Profile';
 import Mapa from './Mapa';
-import TextEditor from './TextEditor';
-import { GamePage, GameList } from './TicTacToe';
+//import TextEditor from './TextEditor';
+//import { GamePage, GameList } from './TicTacToe';
 import { FormModelConverter, FormModelRenderer } from './FormModel';
 import addRoute from './addRoute';
 import viewRoute from './viewRoute';
@@ -19,11 +19,11 @@ export {
   PageNotFound,
   Welcome,
   Profile,
-  GamePage,
-  GameList,
+//  GamePage,
+//  GameList,
   FormModelConverter,
   FormModelRenderer,
-  TextEditor,
+//  TextEditor,
   addRoute,
   viewRoute,
   UploadRoute,

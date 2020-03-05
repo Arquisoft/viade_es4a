@@ -10,8 +10,8 @@ import {
   Welcome,
   RegistrationSuccess,
   Profile,
-  GameList,
-  GamePage,
+  //GameList,
+ // GamePage,
   FormModelConverter,
   FormModelRenderer,
   TextEditor,
@@ -37,6 +37,7 @@ const privateRoutes = [
     path: '/profile',
     component: Profile
   },
+  /*
   {
     id: 'tictactoe',
     path: '/tictactoe',
@@ -47,11 +48,13 @@ const privateRoutes = [
     path: '/tictactoe/:gameId',
     component: GamePage
   },
+  
   {
     id: 'text-editor',
     path: '/text-editor',
     component: TextEditor
   },
+  */
   {
     id: 'formmodelconverter',
     path: '/formmodel/converter',
