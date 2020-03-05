@@ -55,6 +55,8 @@
     "addRoute":"Add Route",
     "viewRoute":"View Route",
     "changeLanguage": "Change Language",
+    "uploadRoute":"Upload Route",
+    "friends":"Friends",
     "languages": {
       "en": "English (English)",
       "es": "Español (Spanish)"
