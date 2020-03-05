@@ -26,7 +26,7 @@ export {
   TextEditor,
   addRoute,
   viewRoute,
-  UploadRoute
+  UploadRoute,
   Friends,
   Mapa
 };
