@@ -40,6 +40,12 @@ export const NavigationItems = [
     to: '/viewRoute'
   },
   {
+    id:'uploadRoute',
+    icon:'/img/icon/tictactoe.svg',
+    label:'navBar.uploadRoute',
+    to: '/uploadRoute'
+  },
+  {
     id:'friends',
     icon:'/img/icon/tictactoe.svg',
     label:'navBar.friends',

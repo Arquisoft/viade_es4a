@@ -17,6 +17,7 @@ import {
   TextEditor,
   addRoute,
   viewRoute,
+  UploadRoute,
   Friends
 } from './containers';
 
@@ -70,6 +71,11 @@ const privateRoutes = [
     id:'viewRoute',
     path:'/viewRoute',
     component: viewRoute
+  },
+  {
+    id:'uploadRoute',
+    path:'/uploadRoute',
+    component: UploadRoute
   },
   {
     id:'friends',
