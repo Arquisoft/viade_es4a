@@ -26,6 +26,7 @@ export const NavigationItems = [
     label: 'navBar.text-editor',
     to: '/text-editor'
   },
+
   {
     id:'addRoute',
     icon:'/img/icon/tictactoe.svg',
@@ -43,7 +44,14 @@ export const NavigationItems = [
     icon:'/img/icon/tictactoe.svg',
     label:'navBar.uploadRoute',
     to: '/uploadRoute'
+  },
+  {
+    id:'friends',
+    icon:'/img/icon/tictactoe.svg',
+    label:'navBar.friends',
+    to: '/friends'
   }
+
 ];
 
 export const ProfileOptions = [

@@ -3,6 +3,7 @@ import { PrivateLayout, PublicLayout, NotLoggedInLayout } from '@layouts';
 import { BrowserRouter as Router, Switch, Redirect } from 'react-router-dom';
 
 import {
+  Mapa,
   Login,
   Register,
   PageNotFound,
@@ -16,7 +17,8 @@ import {
   TextEditor,
   addRoute,
   viewRoute,
-  UploadRoute
+  UploadRoute,
+  Friends
 } from './containers';
 
 const privateRoutes = [
@@ -24,6 +26,11 @@ const privateRoutes = [
     id: 'welcome',
     path: '/welcome',
     component: Welcome
+  },
+  {
+    id: 'Mapa',
+    path: '/mapa',
+    component: Mapa
   },
   {
     id: 'profile',
@@ -69,7 +76,13 @@ const privateRoutes = [
     id:'uploadRoute',
     path:'/uploadRoute',
     component: UploadRoute
+  },
+  {
+    id:'friends',
+    path:'/friends',
+    component: Friends
   }
+
 ];
 
 const Routes = () => (

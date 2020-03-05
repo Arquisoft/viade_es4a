@@ -19,7 +19,7 @@ export default class addRouteForm extends React.Component{
             this.state.duration=target.value;
         }
         console.log(this.state);
-        console.log(JSON.parse('{"name":'+ this.state.name +',"duration":'+ this.state.duration +'}'))
+        console.log(JSON.parse('{"name":"'+ this.state.name +'","duration":"'+ this.state.duration +'"}'))
        
     }
     
@@ -37,7 +37,7 @@ export default class addRouteForm extends React.Component{
                     <label>Intoduce la duracion de la ruta:</label>
                     <input type="text" name="duration" checked={this.state.duration} onChange={this.handleInputChange}/>
                 </div>
-                <input type="button" onClick={this.handleSubmit}/>
+                <input type="button" value="Añadir" onClick={this.handleSubmit}/>
             </form>
         );
     }
