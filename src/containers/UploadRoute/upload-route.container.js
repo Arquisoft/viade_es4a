@@ -8,7 +8,6 @@ const UploadRoute = (props) => {
         const fileReader = new FileReader();
         fileReader.fileName=e.target.files[0].name;
         const {webId} = props;
-        const x =e;
         fileReader.onload = async (event) => {
             const fc   = new FC( auth );
             const nombre=event.target.fileName;
