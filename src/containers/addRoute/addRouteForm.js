@@ -1,10 +1,14 @@
 import React from 'react';
+import auth from "solid-auth-client";
+import FC from 'solid-file-client';
+
+
 export default class addRouteForm extends React.Component{
     constructor(props) {
         super(props);
         this.state = {
-          name: "prueba",
-          duration: "2"
+          name: "",
+          duration: ""
         };
         this.handleInputChange = this.handleInputChange.bind(this);
     }
@@ -23,7 +27,12 @@ export default class addRouteForm extends React.Component{
        
     }
     
-    handleSubmit(event) {
+    async handleSubmit(event) {
+        const fc   = new FC( auth );
+        await fc.createFile(this.props.webID, this.state, "state", {});
+        console.log("subido");
+        
+        
         
     }
     render(){
@@ -37,7 +46,7 @@ export default class addRouteForm extends React.Component{
                     <label>Intoduce la duracion de la ruta:</label>
                     <input type="text" name="duration" checked={this.state.duration} onChange={this.handleInputChange}/>
                 </div>
-                <input type="button" value="Añadir" onClick={this.handleSubmit}/>
+                <input type="submit" value="Añadir" onChange={this.handleSubmit}/>
             </form>
         );
     }

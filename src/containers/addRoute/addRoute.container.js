@@ -1,9 +1,10 @@
 import addRouteForm from './addRouteForm';
+import UploadRoute from "../UploadRoute/upload-route.container";
 
-
-const addRoute= ()=>{
+const addRoute= (props)=>{
     
-    let a=new addRouteForm();
+    let a=new addRouteForm(props);
+    
     return(
         a.render()
     );
