@@ -2,10 +2,13 @@ import React from 'react';
 
 
 export default class loadRoute extends React.Component{
+    
+    /*
     constructor(props){
         super(props);
         
     }
+    */
 
     concatenar(a){
         this.routeJson=a;

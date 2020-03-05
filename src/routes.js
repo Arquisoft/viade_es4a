@@ -11,10 +11,10 @@ import {
   RegistrationSuccess,
   Profile,
   //GameList,
- // GamePage,
+  // GamePage,
   FormModelConverter,
   FormModelRenderer,
-  TextEditor,
+  //TextEditor,
   addRoute,
   viewRoute,
   UploadRoute,
@@ -66,23 +66,23 @@ const privateRoutes = [
     component: FormModelRenderer
   },
   {
-    id:'addRoute',
+    id: 'addRoute',
     path: '/addRoute',
     component: addRoute
   },
   {
-    id:'viewRoute',
-    path:'/viewRoute',
+    id: 'viewRoute',
+    path: '/viewRoute',
     component: viewRoute
   },
   {
-    id:'uploadRoute',
-    path:'/uploadRoute',
+    id: 'uploadRoute',
+    path: '/uploadRoute',
     component: UploadRoute
   },
   {
-    id:'friends',
-    path:'/friends',
+    id: 'friends',
+    path: '/friends',
     component: Friends
   }
 

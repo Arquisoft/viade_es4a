@@ -13,10 +13,10 @@ export default class addRouteForm extends React.Component{
         const target = event.target;
         console.log(target.name);
         if(target.name==="name"){
-            this.state.name=target.value;
+            this.setState({name: target.name});
         }
         if(target.name==="duration"){
-            this.state.duration=target.value;
+            this.setState({name: target.duration});
         }
         console.log(this.state);
         console.log(JSON.parse('{"name":"'+ this.state.name +'","duration":"'+ this.state.duration +'"}'))

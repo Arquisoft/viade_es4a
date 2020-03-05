@@ -1,8 +1,11 @@
 import React from "react";
+/*
 import data from "@solid/query-ldflex";
 import { useWebId } from "@inrupt/solid-react-components";
 import {NavBar} from "../../components";
-import { Value, List } from '@solid/react';
+*/
+import {List } from '@solid/react';
+//import {Value} from '@solid/react';
 
 class SubFriendsComponent extends React.Component {
   
