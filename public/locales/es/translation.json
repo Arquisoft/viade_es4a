@@ -58,6 +58,7 @@
     "changeLanguage": "Cambiar Lenguaje",
     "uploadRoute":"Upload Route",
     "friends":"Friends",
+    "mapa":"Mapa",
     "languages": {
       "en": "English (Inglés)",
       "es": "Español (Español)"
@@ -69,6 +70,7 @@
       "fetchingError": "Error en las notificaciones"
     },
     "tictactoe": "Juego"
+
   },
   "footer": {
     "version": "Versión"

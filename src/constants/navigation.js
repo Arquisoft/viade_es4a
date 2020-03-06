@@ -54,6 +54,13 @@ export const NavigationItems = [
     label:'navBar.friends',
     to: '/friends'
   }
+,
+  {
+    id:'mapa',
+    icon:'/img/icon/tictactoe.svg',
+    label:'navBar.mapa',
+    to: '/mapa'
+  }
 
 ];
 
