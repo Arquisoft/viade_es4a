@@ -8,3 +8,8 @@ Diagrama para ver la interacción para crear un POD en SOLID
 image::InicioSesion.PNG[Inicio de Sesion]
 
 *Explicacion: El usuario entrará a su perfil de SOLID, introducirá sus credenciales para que el servidor de SOLID los valide, una vez hecho, devolverá si el logueo fue satisfactorio o no.
+
+
+image::PublicarRuta.PNG[Publicar ruta en POD]
+
+*Explicacion: El usuario entrará a su perfil de SOLID, introducirá sus credenciales para que el servidor de SOLID los valide, una vez hecho, devolverá si el logueo fue satisfactorio o no. Después, registrará la ruta y quedará almacenada en su propio POD
