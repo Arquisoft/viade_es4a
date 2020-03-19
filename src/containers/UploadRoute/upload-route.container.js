@@ -1,6 +1,7 @@
 import React from "react";
 import auth from "solid-auth-client";
 import FC from 'solid-file-client';
+import {RouteAddDiv} from '../addRoute/addRoute.style';
 
 const UploadRoute = (props) => {
 
@@ -20,13 +21,14 @@ const UploadRoute = (props) => {
     }
 
     return (
-        <div>
+        <RouteAddDiv>
             <h1>Subir ruta</h1>
+            <br/>
             <label>
                 Upload file:
             <input type="file" name="files[]" id="file" onChange={handleSubmit} />
             </label>
-        </div>
+        </RouteAddDiv>
 
     );
 }
