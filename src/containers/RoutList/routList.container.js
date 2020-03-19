@@ -5,13 +5,15 @@ import { useWebId } from "@inrupt/solid-react-components";
 import {Space} from "../../components";
 
 export const RoutesListComponent = () => {
+
+    //Revisar para usar webID del usuario registrado
     const webId = useWebId();
     
     // I will use: https://github.com/jeff-zucker/solid-file-client
     const fc   = new FC( auth ) //With fc we can manage files
     async function run(){
 
-        var publicFolder = await fc.readFolder("https://uo257275.solid.community/public") //Get an item which has the url with the files(routes)
+        var publicFolder = await fc.readFolder("https://raulgarcua4.solid.community/public") //Get an item which has the url with the files(routes)
 
         for(var i=0; i < publicFolder.files.length; i++){ //Iterate over the files 
             // var file =  await fc.readHead(publicFolder.files[i].url) //Get the file's content
@@ -23,7 +25,7 @@ export const RoutesListComponent = () => {
     return (
         <div>
             <Space/>
-            <h1>Listado de rutas</h1>
+            <h1>Rutas del usuario</h1>
         </div>
     );
 };
