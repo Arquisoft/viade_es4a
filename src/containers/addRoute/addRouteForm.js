@@ -1,53 +1,38 @@
-import React from 'react';
+import React, {useState} from 'react';
 import auth from "solid-auth-client";
 import FC from 'solid-file-client';
 
+const addRouteForm=(props)=>{
+    const [name,setName]=useState();
+    const [duration,setDuration]=useState();
 
-export default class addRouteForm extends React.Component{
-    constructor(props) {
-        super(props);
-        this.state = {
-          name: "",
-          duration: ""
-        };
-        this.handleInputChange = this.handleInputChange.bind(this);
-    }
-    
-    handleInputChange(event) {
-        const target = event.target;
-        console.log(target.name);
-        if(target.name==="name"){
-            this.setState({name: target.name});
-        }
-        if(target.name==="duration"){
-            this.setState({name: target.duration});
-        }
-        console.log(this.state);
-        console.log(JSON.parse('{"name":"'+ this.state.name +'","duration":"'+ this.state.duration +'"}'))
-       
-    }
-    
-    async handleSubmit(event) {
+
+
+    const onSubmit= async (e)=>{
+        console.log(name);
+        const file='{"name":'+name+',"duration":'+duration+'}'
+
+        const {webId} = props;
+        console.log(webId);
+        const url=webId.split("profile/card#me")[0]+"public/prueba12.json";
         const fc   = new FC( auth );
-        await fc.createFile(this.props.webID, this.state, "state", {});
+        await fc.createFile(url, file, "application/geo+json", {});
         console.log("subido");
-        
-        
-        
     }
-    render(){
-        return(
-            <form onSubmit={this.handleSubmit}>
-                <div>
-                    <label>Introduce el nombre:</label>
-                    <input type="text" name="name" checked={this.state.name} onChange={this.handleInputChange}/>
-                </div>
-                <div>
-                    <label>Intoduce la duracion de la ruta:</label>
-                    <input type="text" name="duration" checked={this.state.duration} onChange={this.handleInputChange}/>
-                </div>
-                <input type="submit" value="Añadir" onChange={this.handleSubmit}/>
-            </form>
-        );
-    }
+
+    return(
+        <form onSubmit={onSubmit}>
+            <div>
+                <label>Introduce el nombre:</label>
+                <input type="text" name="name"  value={name} onChange={e=>setName(e.target.value)}/>
+            </div>
+            <div>
+                <label>Intoduce la duracion de la ruta:</label>
+                <input type="text" name="duration"  value={duration} onChange={e=>setDuration(e.target.value)}/>
+            </div>
+            <input type="button" value="Añadir" onClick={onSubmit}/>
+        </form>
+    );
 }
+export default addRouteForm;
+
