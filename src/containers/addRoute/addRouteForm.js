@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import auth from "solid-auth-client";
 import FC from 'solid-file-client';
+
 import {RouteAddDiv,RouteAddTitle} from './addRoute.style';
 
 const addRouteForm=(props)=>{
@@ -12,18 +13,19 @@ const addRouteForm=(props)=>{
     const onSubmit= async (e)=>{
         console.log(name);
         const file='{"name":'+name+',"duration":'+duration+'}'
-
+        console.log(new Date());
         const {webId} = props;
         console.log(webId);
-        const fileName=name.replace(/\s+/g,'');
+        //const fileName=name.replace(/\s+/g,'');
 
-        const url=webId.split("profile/card#me")[0]+"public/"+fileName;
+        const url=webId.split("profile/card#me")[0]+"public/rutas/"+new Date()+".json";
         const fc   = new FC( auth );
         await fc.createFile(url, file, "application/geo+json", {});
         console.log("subido");
     }
 
     return(
+
         <RouteAddDiv>
             <form onSubmit={onSubmit}>
                 <RouteAddTitle>Add Route</RouteAddTitle>
@@ -38,6 +40,8 @@ const addRouteForm=(props)=>{
                 <input type="submit" value="Añadir" onChange={onSubmit}/>
             </form>
         </RouteAddDiv>
+
+
     );
 }
 export default addRouteForm;
