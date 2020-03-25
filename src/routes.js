@@ -87,7 +87,7 @@ const privateRoutes = [
     component: Friends
   },
   {
-    id: 'rout list',
+    id: 'routList',
     path: '/routList',
     component: RoutList
   }
