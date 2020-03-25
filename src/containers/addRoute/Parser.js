@@ -16,8 +16,8 @@ const Parser=(name,description,geoCoordinates)=>{
         for(let i=0;i<geoCoordinates.length;i++){
             json=json+  '            {\n' +
                         '                "@type": "GeoCoordinates",\n' +
-                        '                "latitude":' +geoCoordinates.latitude+',\n' +
-                        '                "longitude": ' +geoCoordinates.longitude+'\n' +
+                        '                "latitude":' +geoCoordinates[i][0]+',\n' +
+                        '                "longitude": ' +geoCoordinates[i][1]+'\n' +
                         '            }';
             if(i<geoCoordinates.length-1){
                 json+=',\n';

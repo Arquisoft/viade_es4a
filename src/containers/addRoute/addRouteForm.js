@@ -8,13 +8,19 @@ import {RouteAddDiv,RouteAddTitle} from './addRoute.style';
 const addRouteForm=(props)=>{
     const [name,setName]=useState();
     const [description,setDescription]=useState();
-
+    var geoCoordinates1=[];
+    geoCoordinates1[0]=-5.8512792;
+    geoCoordinates1[1]=43.3551061;
+    var geoCoordinates2=[];
+    geoCoordinates2[0]=-5.8507937;
+    geoCoordinates2[1]=43.3547082;
+    var geoCoordinates=[geoCoordinates1,geoCoordinates2];
 
 
     const onSubmit= async (e)=>{
         console.log(name);
         //const file='{"name":'+name+',"description":'+description+'}'
-        var file=Parser(name,description,null);
+        var file=Parser(name,description,geoCoordinates);
         console.log(new Date());
         const {webId} = props;
         console.log(webId);
