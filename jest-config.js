@@ -1,5 +1,5 @@
 module.exports = {
-    project: 'bigfoot',
+    project: 'test',
     verbose: true,
     preset: 'jest-puppeteer',
     testRegex: 'feature/.*\\js$',
