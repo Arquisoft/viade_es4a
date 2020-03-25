@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import {} from "react-router-dom";
 import auth from "solid-auth-client";
 import FC from "solid-file-client";
+import { RoutesUser } from "..";
 
 
 class MyRoutesComponent extends React.Component {
@@ -46,4 +47,4 @@ class MyRoutesComponent extends React.Component {
     }  
 
 
-export default RoutesComponent;
+export default RoutesUser;

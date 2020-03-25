@@ -32,5 +32,5 @@ export {
   Friends,
   Mapa,
   RoutList,
-  RoutesUser
+  RoutesUser,
 };

@@ -1,3 +1,3 @@
-import RoutesComponent from "./routes.container";
+import RoutesUser from "./routes.container";
 
-export default RoutesComponent;
+export default RoutesUser;
