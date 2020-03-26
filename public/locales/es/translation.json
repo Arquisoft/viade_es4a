@@ -56,10 +56,13 @@
     "addRoute":"Añadir Ruta",
     "viewRoute":"Ver Ruta",
     "changeLanguage": "Cambiar Lenguaje",
+    "uploadRoute":"Upload Route",
+    "friends":"Friends",
     "uploadRoute":"Subir Ruta",
     "friends":"Amigos",
     "routList": "Listar rutas",
     "mapa":"Mapa",
+    "friends":"Amigos",
     "languages": {
       "en": "English (Inglés)",
       "es": "Español (Español)"

@@ -1,5 +1,6 @@
 import React from 'react';
 import loadRoute from './loadRoute';
+import { ViewRouteWrapper, ViewRouteContainer, ViewRouteh1, WebId } from './viewRoute.style';
 
 
 
@@ -11,9 +12,16 @@ const viewRoute= ()=>{
     var prueba=[prueba1,prueba2];
     
     return(
-        <div>
-            {a.concatenar(prueba)}
-        </div>
+        <ViewRouteWrapper>
+            <ViewRouteContainer>
+                <div>
+                    <ViewRouteh1>Rutas</ViewRouteh1>
+                </div>
+                <div>
+                    {a.concatenar(prueba)}
+                </div>
+            </ViewRouteContainer>
+        </ViewRouteWrapper>
     );
 };
 
