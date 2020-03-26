@@ -30,8 +30,8 @@ class FriendsComponent extends React.Component {
   
     render() {
       return (
-          <SubFriends expression={this.state.expression /*|| defaultExpression*/}
-                        onExpressionChange={this.onExpressionChange}/>
+        <SubFriends expression={this.state.expression /*|| defaultExpression*/}
+                      onExpressionChange={this.onExpressionChange}/>
       );
     }
   
