@@ -13,7 +13,8 @@ const viewRoute= ()=>{
     return(
         <div>
             {a.concatenar(prueba)}
-        </div>
+        </div> // prueba
+        
     );
 };
 
