@@ -15,7 +15,7 @@ const UploadRoute = (props) => {
             const nombre=event.target.fileName;
             var json = JSON.parse(event.target.result);
             json=Parser(json.name,json.description);
-            const url=webId.split("profile/card#me")[0]+"public/"+nombre;
+            const url=webId.split("profile/card#me")[0]+"public/"+new Date()+".json";
             console.log(url);
             await fc.createFile(url, json, "application/geo+json", {});
             console.log("subido");
