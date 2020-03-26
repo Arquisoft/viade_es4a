@@ -12,7 +12,7 @@ import viewRoute from './viewRoute';
 import UploadRoute from './UploadRoute';
 import Friends from "./Friends";
 import RoutList from "./RoutList";
-import RoutesUser from "./RoutesUser"
+import RoutesUser from "./RoutesUser";
 
 export {
   Login,
@@ -32,5 +32,5 @@ export {
   Friends,
   Mapa,
   RoutList,
-  RoutesUser,
+  RoutesUser
 };
