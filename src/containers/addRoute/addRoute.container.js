@@ -7,8 +7,6 @@ import { AddRouteWrapper, AddRouteContainer, AddRouteInsideContainer, Separator 
 
 const addRoute= (props)=>{
     
-    //let a=new addRouteForm(props);
-    
     return(
         <AddRouteWrapper data-testid='addRoute-component'>
             <AddRouteContainer>
