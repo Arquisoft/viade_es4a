@@ -36,12 +36,12 @@ export const NavigationItems = [
     label:'navBar.addRoute',
     to: '/addRoute'
   },
-  {
+  /*{
     id:'viewRoute',
     icon:'/img/icon/tictactoe.svg',
     label:'navBar.viewRoute',
     to: '/viewRoute'
-  },
+  },*/
   {
     id:'uploadRoute',
     icon:'/img/icon/tictactoe.svg',
@@ -53,6 +53,12 @@ export const NavigationItems = [
     icon:'/img/icon/tictactoe.svg',
     label:'navBar.friends',
     to: '/friends'
+  },
+  {
+    id:'routList',
+    icon:'/img/icon/tictactoe.svg',
+    label:'navBar.routList',
+    to:'/routList'
   }
 
 ];
