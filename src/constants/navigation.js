@@ -10,7 +10,8 @@ export const NavigationItems = [
   },
   {
     id: 'profile',
-    icon: '/img/people.svg',
+    //icon: '/img/people.svg',
+    icon: '/img/icon/perfil.png',
     label: 'navBar.profile',
     to: '/profile'
   },
@@ -32,27 +33,34 @@ export const NavigationItems = [
 
   {
     id:'addRoute',
-    icon:'/img/icon/tictactoe.svg',
+    icon:'/img/icon/anadirRuta.png',
     label:'navBar.addRoute',
     to: '/addRoute'
   },
   {
     id:'viewRoute',
-    icon:'/img/icon/tictactoe.svg',
+    icon:'/img/icon/ojo.png',
     label:'navBar.viewRoute',
     to: '/viewRoute'
   },
   {
     id:'uploadRoute',
-    icon:'/img/icon/tictactoe.svg',
+    icon:'/img/icon/upload.png',
     label:'navBar.uploadRoute',
     to: '/uploadRoute'
   },
   {
     id:'friends',
-    icon:'/img/icon/tictactoe.svg',
+    icon:'/img/icon/amigos.png',
     label:'navBar.friends',
     to: '/friends'
+  }
+,
+  {
+    id:'mapa',
+    icon:'/img/icon/mapa.png',
+    label:'navBar.mapa',
+    to: '/mapa'
   }
 
 ];

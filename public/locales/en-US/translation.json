@@ -58,6 +58,7 @@
     "changeLanguage": "Change Language",
     "uploadRoute":"Upload Route",
     "friends":"Friends",
+    "mapa":"Map",
     "languages": {
       "en": "English (English)",
       "es": "Español (Spanish)"
