@@ -1,5 +1,4 @@
 import React from 'react';
-import { Separator, TitleLabel, NormalLabel } from './viewRoute.style';
 
 
 export default class loadRoute extends React.Component{
@@ -16,36 +15,32 @@ export default class loadRoute extends React.Component{
         console.log(a.length);
         let routes= [];
         routes.push(
-            <Separator>
-                <div>
-                    <p>
-                    <TitleLabel>Nombre: </TitleLabel>
-                    <NormalLabel>{this.routeJson[0].name}</NormalLabel>
-                    </p>
-                    <p>
-                    <TitleLabel> Duracion: </TitleLabel>
-                    <NormalLabel>{this.routeJson[0].duration}</NormalLabel>
-                    </p>
-                </div>
-            </Separator>
+            <div>
+                <p>
+                <label>Nombre: </label>
+                <label>{this.routeJson[0].name}</label>
+                </p>
+                <p>
+                <label>Duracion: </label>
+                <label>{this.routeJson[0].duration}</label>
+                </p>
+            </div>
         );
 
         let i=this.routeJson.length;
         let j=1;
         while(i>j){
             routes.push(
-                <Separator>
-                    <div>
-                        <p>
-                        <TitleLabel>Nombre:</TitleLabel>
-                        <NormalLabel>{this.routeJson[j].name}</NormalLabel>
-                        </p>
-                        <p>                    
-                        <TitleLabel>Duracion:</TitleLabel>
-                        <NormalLabel>{this.routeJson[j].duration}</NormalLabel>
-                        </p>
-                    </div>
-                </Separator>
+                <div>
+                    <p>
+                    <label>Nombre:</label>
+                    <label>{this.routeJson[j].name}</label>
+                    </p>
+                    <p>
+                    <label>Duracion:</label>
+                    <label>{this.routeJson[j].duration}</label>
+                    </p>
+                </div>
             );
             j++;
         }
