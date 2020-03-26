@@ -37,7 +37,7 @@ export const NavigationItems = [
     label:'navBar.addRoute',
     to: '/addRoute'
   },
-  
+
   {
     id:'uploadRoute',
     icon:'/img/icon/uploadRoute.png',
@@ -55,6 +55,12 @@ export const NavigationItems = [
     icon:'/img/icon/amigos.png',
     label:'navBar.friends',
     to: '/friends'
+  },
+  {
+    id:'routList',
+    icon:'/img/icon/tictactoe.svg',
+    label:'navBar.routList',
+    to:'/routList'
   }
 ,
   {

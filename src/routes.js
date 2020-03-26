@@ -18,7 +18,8 @@ import {
   addRoute,
   viewRoute,
   UploadRoute,
-  Friends
+  Friends,
+  RoutList
 } from './containers';
 
 const privateRoutes = [
@@ -84,6 +85,11 @@ const privateRoutes = [
     id: 'friends',
     path: '/friends',
     component: Friends
+  },
+  {
+    id: 'routList',
+    path: '/routList',
+    component: RoutList
   }
 
 ];
