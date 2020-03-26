@@ -3,7 +3,7 @@ import { PrivateLayout, PublicLayout, NotLoggedInLayout } from '@layouts';
 import { BrowserRouter as Router, Switch, Redirect } from 'react-router-dom';
 
 import {
-  Mapa,
+  MyMapComponent,
   Login,
   Register,
   PageNotFound,
@@ -30,7 +30,7 @@ const privateRoutes = [
   {
     id: 'Mapa',
     path: '/mapa',
-    component: Mapa
+    component: MyMapComponent
   },
   {
     id: 'profile',

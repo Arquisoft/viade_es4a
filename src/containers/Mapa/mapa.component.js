@@ -1,61 +1,78 @@
-/*jshint esversion: 6 */
 import React from "react";
-import { GoogleMap, withScriptjs, withGoogleMap, Marker, Polyline } from 'react-google-maps';
+import { Marker, GoogleMap, withScriptjs, withGoogleMap, Polyline } from 'react-google-maps';
 
-const Mapa = () => {
+class MapWithMarkers extends React.Component {
+    state = {
+        places: [],
+        pathCoordinates: []
 
-
-    const markersArray = [];
-    const pathCoordinates = [
-        { lat: -34.397, lng: 150.644 },
-        { lat: -35, lng: 150 }
-    ];
-
-    var WrappedMap = withScriptjs(withGoogleMap(props => <GoogleMap
-        defaultZoom={7}
-        defaultCenter={{ lat: -34.397, lng: 150.644 }}
-        onClick={handleClick}
-    >
-        <Marker position={{ lat: -34.397, lng: 150.644 }}></Marker>
-        <Marker position={{ lat: -35, lng: 150 }}></Marker>
-        <Polyline
-            path={pathCoordinates}
-            geodesic={true}
-            options={{
-                strokeColor: "#ff2527",
-                strokeOpacity: 0.75,
-                strokeWeight: 2,
-            }}
-        />
-
-
-    </GoogleMap>));
-
-
-    function handleClick(e) {
-        addMarker(e.latLng);
 
     }
-    function addMarker(latLng) {
-        let marker = <Marker
-            position={{ lat: latLng.lat(), lng: latLng.lng() }}
-        >
+    checkLines(e, newPlace) {
+        console.log(e);
+        const coordinates = {
+            lat: newPlace.lat,
+            lng: newPlace.lng
+        };
+        this.setState({
+            pathCoordinates: [...this.state.pathCoordinates, coordinates]
+        });
 
-        </Marker>
-        markersArray.push(marker);
     }
+    
+    addMarker(e) {
+        console.log(e);
+        const newPlace = {
+            id: this.state.places.length,
+            lat: e.latLng.lat(),
+            lng: e.latLng.lng()
+        };
+        this.setState({
+            places: [...this.state.places, newPlace]
+        });
+        this.checkLines(e, newPlace);
+    }
+    
+    
 
+    render() {
+        return (
+            <GoogleMap
+                onClick={this.addMarker.bind(this)}
+                defaultZoom={this.props.zoom}
+                defaultCenter={this.props.center}
+            >
+                {this.state.places.map(place => {
+                    return (
+                        <Marker
+                            key={place.id}
+                            position={{ lat: place.lat, lng: place.lng }}
+                        />
+                    );
+                })}
+                return(
+                <Polyline
+                    path={this.state.pathCoordinates}
+                    geodesic={true}
+                    options={{
+                        strokeColor: "#ff2527",
+                        strokeOpacity: 0.75,
+                        strokeWeight: 2,
+                        icons: [
+                            {
+                                icon: "lineSymbol",
+                                offset: "0",
+                                repeat: "20px"
+                            }
+                        ]
+                    }}
+                ></Polyline> );
 
-    return (<div style={{ width: "100vw", hegiht: "100vh" }}> <WrappedMap
-        googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${
-            process.env.REACT_APP_API_KEY}`}
-        loadingElement={<div style={{ height: "100%" }} />}
-        containerElement={<div style={{ height: "100%" }} />}
-        mapElement={<div style={{ height: "100%" }} />}
+            </GoogleMap>
 
+        )
 
-    ></WrappedMap>
-    </div>
-    );
+    }
 }
-export default Mapa;
+export default withScriptjs(withGoogleMap(MapWithMarkers));
+
