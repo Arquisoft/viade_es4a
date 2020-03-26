@@ -39,13 +39,13 @@ export const NavigationItems = [
   },
   {
     id:'viewRoute',
-    icon:'/img/icon/tictactoe.svg',
+    icon:'/img/icon/ojo.png',
     label:'navBar.viewRoute',
     to: '/viewRoute'
   },
   {
     id:'uploadRoute',
-    icon:'/img/icon/tictactoe.svg',
+    icon:'/img/icon/upload.png',
     label:'navBar.uploadRoute',
     to: '/uploadRoute'
   },
