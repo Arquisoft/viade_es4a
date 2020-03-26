@@ -31,7 +31,7 @@ export {
   viewRoute,
   UploadRoute,
   Friends,
-  Mapa,
+  //Mapa,
   RoutList,
   RoutesUser
 
