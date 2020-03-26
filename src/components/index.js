@@ -6,6 +6,7 @@ import ImageProfile from './ImageProfile';
 import Footer from './Footer';
 import Notification from './Notifications';
 import AutoSaveSpinner from './AutoSaveSpinner';
+import Space from "./Space";
 
 export {
   ErrorBoundary,
@@ -15,5 +16,6 @@ export {
   ImageProfile,
   Footer,
   Notification,
-  AutoSaveSpinner
+  AutoSaveSpinner,
+  Space
 };

@@ -3,7 +3,7 @@ import Register, { RegistrationSuccess } from './Register';
 import PageNotFound from './PageNotFound';
 import Welcome from './Welcome';
 import Profile from './Profile';
-import Mapa from './Mapa';
+import MyMapComponent from './Mapa';
 //import TextEditor from './TextEditor';
 //import { GamePage, GameList } from './TicTacToe';
 import { FormModelConverter, FormModelRenderer } from './FormModel';
@@ -11,6 +11,8 @@ import addRoute from './addRoute';
 import viewRoute from './viewRoute';
 import UploadRoute from './UploadRoute';
 import Friends from "./Friends";
+import RoutList from "./RoutList";
+import RoutesUser from "./RoutesUser";
 
 export {
   Login,
@@ -19,14 +21,18 @@ export {
   PageNotFound,
   Welcome,
   Profile,
-//  GamePage,
-//  GameList,
+  MyMapComponent,
+  //  GamePage,
+  //  GameList,
   FormModelConverter,
   FormModelRenderer,
-//  TextEditor,
+  //  TextEditor,
   addRoute,
   viewRoute,
   UploadRoute,
   Friends,
-  Mapa
+  //Mapa,
+  RoutList,
+  RoutesUser
+
 };

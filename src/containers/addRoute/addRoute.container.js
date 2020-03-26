@@ -24,6 +24,14 @@ const addRoute= (props)=>{
                 </div>
             </AddRouteContainer>
         </AddRouteWrapper>
+        <div>
+            <div>
+                {UploadRoute(props)}
+            </div>
+            <div>
+                {addRouteForm(props)}
+            </div>
+        </div>
     );
 };
 
