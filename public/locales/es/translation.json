@@ -57,12 +57,7 @@
     "viewRoute":"View Route",
     "changeLanguage": "Cambiar Lenguaje",
     "uploadRoute":"Upload Route",
-<<<<<<< HEAD
-    "friends":"Friends",
-    "mapa":"Mapa",
-=======
     "friends":"Amigos",
->>>>>>> 5eab2a93c548cae9f279e8c5b9c6cc109237568b
     "languages": {
       "en": "English (Inglés)",
       "es": "Español (Español)"
@@ -74,7 +69,6 @@
       "fetchingError": "Error en las notificaciones"
     },
     "tictactoe": "Juego"
-
   },
   "footer": {
     "version": "Versión"
