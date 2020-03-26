@@ -33,21 +33,22 @@ export const NavigationItems = [
 
   {
     id:'addRoute',
-    icon:'/img/icon/anadirRuta.png',
+    icon:'/img/icon/addRoute.png',
     label:'navBar.addRoute',
     to: '/addRoute'
   },
-  {
-    id:'viewRoute',
-    icon:'/img/icon/tictactoe.svg',
-    label:'navBar.viewRoute',
-    to: '/viewRoute'
-  },
+  
   {
     id:'uploadRoute',
-    icon:'/img/icon/tictactoe.svg',
+    icon:'/img/icon/uploadRoute.png',
     label:'navBar.uploadRoute',
     to: '/uploadRoute'
+  },
+  {
+    id:'viewRoute',
+    icon:'/img/icon/viewRoute.png',
+    label:'navBar.viewRoute',
+    to: '/viewRoute'
   },
   {
     id:'friends',
