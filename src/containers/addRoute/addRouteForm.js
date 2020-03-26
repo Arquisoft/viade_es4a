@@ -4,6 +4,7 @@ import FC from 'solid-file-client';
 import Parser from "./Parser";
 
 import {RouteAddDiv,RouteAddTitle} from './addRoute.style';
+import MyMapComponent from "../Mapa";
 
 const addRouteForm=(props)=>{
     const [name,setName]=useState();
@@ -47,9 +48,10 @@ const addRouteForm=(props)=>{
                 </div>
                 <input type="button" value="Añadir" onClick={onSubmit}/>
             </form>
+            <div>
+                {MyMapComponent()}
+            </div>
         </RouteAddDiv>
-
-
     );
 }
 export default addRouteForm;

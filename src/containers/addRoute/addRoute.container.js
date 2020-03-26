@@ -11,12 +11,11 @@ const addRoute= (props)=>{
     return(
         <div>
             <div>
-                {addRouteForm(props)}
-            </div>
-            <div>
                 {UploadRoute(props)}
             </div>
-
+            <div>
+                {addRouteForm(props)}
+            </div>
         </div>
 
     );
