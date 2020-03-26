@@ -53,12 +53,13 @@
     "formModelRender": "Form Model Render",
     "formModelConvert": "Form Model Convert",
     "text-editor": "Editor de Textos",
-    "addRoute":"Add Route",
-    "viewRoute":"View Route",
+    "addRoute":"Añadir Ruta",
+    "viewRoute":"Ver Ruta",
     "changeLanguage": "Cambiar Lenguaje",
-    "uploadRoute":"Upload Route",
+    "uploadRoute":"Subir Ruta",
     "friends":"Amigos",
     "routList": "Listar rutas",
+    "mapa":"Mapa",
     "languages": {
       "en": "English (Inglés)",
       "es": "Español (Español)"
@@ -70,6 +71,7 @@
       "fetchingError": "Error en las notificaciones"
     },
     "tictactoe": "Juego"
+
   },
   "footer": {
     "version": "Versión"

@@ -1,3 +1,3 @@
-import Mapa from './mapa.component.js';
+import MyMapComponent from './mapaFinal.component.js';
 
-export default Mapa;
+export default MyMapComponent;
