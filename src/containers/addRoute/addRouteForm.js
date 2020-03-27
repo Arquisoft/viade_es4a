@@ -46,7 +46,7 @@ const addRouteForm=(props)=>{
                     <label>Intoduce la descripcion de la ruta:</label>
                     <input type="text" name="description"  value={description} onChange={e=>setDescription(e.target.value)}/>
                 </div>
-                <input type="button" value="Añadir" onClick={onSubmit}/>
+                <input type="submit" value="Añadir" onChange={onSubmit}/>
             </form>
             <div>
                 {MyMapComponent()}
