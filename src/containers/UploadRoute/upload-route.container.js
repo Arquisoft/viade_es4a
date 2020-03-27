@@ -12,7 +12,7 @@ const UploadRoute = (props) => {
         const {webId} = props;
         fileReader.onload = async (event) => {
             const fc   = new FC( auth );
-            const nombre=event.target.fileName;
+            //const nombre=event.target.fileName;
             var json = JSON.parse(event.target.result);
             json=Parser(json.name,json.description);
             const url=webId.split("profile/card#me")[0]+"public/"+new Date()+".json";

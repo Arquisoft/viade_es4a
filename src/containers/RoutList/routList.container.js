@@ -1,7 +1,7 @@
 import React from "react";
 import auth from "solid-auth-cli";
 import FC from "solid-file-client";
-import { useWebId } from "@inrupt/solid-react-components";
+//import { useWebId } from "@inrupt/solid-react-components";
 import {Space} from "../../components";
 
 export const RoutesListComponent = (props) => {
@@ -19,7 +19,21 @@ export const RoutesListComponent = (props) => {
         for(var i=0; i < publicFolder.files.length; i++){ //Iterate over the files 
             // var file =  await fc.readHead(publicFolder.files[i].url) //Get the file's content
             if(publicFolder.files[i].name.includes(".json")){
-                console.log(publicFolder.files[i].name) //Get the file's name
+                //console.log(publicFolder.files[i].name)
+                var file=await fc.readFile(publicFolder.files[i].url);
+
+                try{
+                    file=JSON.parse(file);
+                    //console.log(file)
+                    console.log(publicFolder.files[i].name)
+                    if(file.name!=null)
+                        console.log(file.name)
+                    if(file.description!=null)
+                        console.log(file.description)
+                }catch (e) {
+                    
+                }
+
             }
         }
     }
@@ -29,6 +43,9 @@ export const RoutesListComponent = (props) => {
         <div>
             <Space/>
             <h1>Rutas del usuario</h1>
+            <div>
+                Prueba
+            </div>
         </div>
     );
 };
