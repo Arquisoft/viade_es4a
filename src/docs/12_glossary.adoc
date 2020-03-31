@@ -1,7 +1,7 @@
 [[section-glossary]]
 == Glossary
 
-//INTRODUCIR EN ORDEN ALFABETICO
+//INTRODUCIR EN ORDEN ALFABETICO 
 
 [options="header"]
 |===
