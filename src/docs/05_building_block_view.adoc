@@ -3,4 +3,16 @@
 
 == Building Block View
 
-Se irá desarrollando a lo largo de la asignatura
+image::Viade.PNG[Viade]
+
+
+.Level 1 descriptions
+|===
+|Name |Responsibility
+
+|Pod 
+|Descrito en glosario
+
+|Viade
+|Nuestra app
+|===
