@@ -10,13 +10,16 @@
 |AsciiDoctor| Herramienta de codigo abierto basada en la sintaxis de AsciiDoc.
 |API| Es un conjunto de reglas (código) y especificaciones que las aplicaciones pueden seguir para comunicarse entre ellas: sirviendo de interfaz entre programas diferentes de la misma manera en que la interfaz de usuario facilita la interacción humano-software.
 |Arc 42| Modelo divido en 12 secciones utilizado para comunicar y documentar software y arquitecturas de sistemas.
+|Chi| Es un paquete de expressjs para trabajar en las pruebas de la aplicación
 |Cross-site request forgery| Tipo de exploit malicioso de un sitio web en el que comandos no autorizados son transmitidos por un usuario en el cual el sitio web confía.
 |Google Maps| Servidor de aplicaciones de mapas en la web que pertenece a Alphabet Inc.
 |Jest| Jest es un Framework utilizado para realizar pruebas en JavaScript. Esta enfocado en la simplicidad y no necesita configuracion. Funciona con proyectos usando: Babel, TypeScript, Node, React, Angular, Vue, etc.
 |JSON| Es un formato de texto sencillo para el intercambio de datos. Se trata de un subconjunto de la notación literal de objetos de JavaScript.
 |Node| Entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor basado en el lenguaje de programación ECMAScript.
+|Parser| Programa informático que analiza una cadena de símbolos de acuerdo a las reglas de una gramática formal
 |POD| Personal Online Data, es el espacio en el que se almacenan tus datos, imágenes, etc.
 |React| React es una biblioteca escrita en JavaScript, desarrollada en Facebook para facilitar la creación de componentes interactivos, reutilizables, para interfaces de usuario.
+|Ruby| Es un lenguaje de programación interpretado, reflexivo y orientado a objeto
 |Ruta| Camino determinado que va de un sitio a otro.
 |SOLID| Deriva de Social Linked Data, es un conjunto de convenciones y herramientas para construir aplicaciones sociales descentralizadas.
 |===
