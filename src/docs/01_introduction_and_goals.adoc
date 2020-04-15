@@ -23,27 +23,10 @@ Los usuarios de la aplicación buscarán registrar sus rutas en el pod propio, l
 
 === Atributos de calidad
 
-* Accesibilidad: diseño de una aplicación accesible para personas con discapacidades 
 * Disponibilidad: diseño de una aplicación que asegure un cierto grado absoluto de continuidad operacional durante un periodo de duración dado.
-* Modificabilidad: diseño de una aplicación con un software mantenible en el tiempo.
-* Rendimiento: capacidad del sistema a realizar operaciones sin un uso excesivo de recursos (memoria, datos, etc).
-* Seguridad: diseño de una aplicación que no sea vulnerable a:
-** SQL Injection.
-** Comand Injection.
-** Fuga de información.
-** Puertas traseras.
-** Man in the middle.
-** Cross-site request forgery.
-* Testeabilidad: diseño de una aplicación que sea capaz de pasar un software mínimo de pruebas para comprobar el correcto funcionamiento de esta.
+* Seguridad: diseño de una aplicación que no sea vulnerable a ataques externos
 * Usabilidad: diseño de una aplicación que sea fácil de usar por parte de los usuarios que interactúen con ella.
-* Escalabilidad: capacidad de la apliación para albergar un mayor volumen de datos.
-* Interoperabilidad: capacidad de la aplicación para interactuar y coexistir con otros sistemas.
 * Portabilidad: característica que posee un software para ejecutarse en diferentes plataformas.
-* Integridad: diseño de una aplicación que mantenga la información exacta a como fue generada sin ser editada por usuarios o procesos no autizados a ello.
-* Consistencia: diseño de una aplicación que mantenga sus datos correctos en todo momento.
-* Robustez: capacidad de la aplicación para actuar y sobreponerse a errores no esperados en tiempo de ejecución.
-* Modular: diseño de una aplicación mediante subdivisiones de esta, independientes unas de otras.
-* Trazable: capacidad de la aplicación a seguir el rastro a las actividades realizadas en ella en todas las etapas de su ciclo de vida.
 
 
 [options="header",cols="2*"]
@@ -78,4 +61,6 @@ Los usuarios de la aplicación buscarán registrar sus rutas en el pod propio, l
 | Profesorado de la asignatura | Seguir un proceso de desarrollo de la aplicación de acuerdo a lo visto en la asignatura, así como un correcto diseño y arquitectura del producto final.
 | SOLID | Realizar sistema de gestión de rutas descentralizado.
 | Equipo de desarrollo | Realizar el trabajo asignado siguiendo los requisitos establecidos en la documentación siguiendo una metodología ágil de acuerdo a lo aprendido en la asignatura.
+| Inrupt | Obtener una aplicación descentralizada para tener un almacen de rutas
+|Usuario app| Espera una app usable, que no tenga dificultades de uso y sea fácil de interaccionar con ella.
 |===

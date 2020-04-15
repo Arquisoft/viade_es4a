@@ -1,7 +1,7 @@
 [[section-concepts]]
-== Cross-cutting Concepts
+== Concepts
 
-****
+
 En este apartado se describirá, generalmente las principales regulaciones e ideas de soluciones que serán relevantes en nuestro sistema.
 
 .Modelo de dominio

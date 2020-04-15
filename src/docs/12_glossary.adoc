@@ -1,31 +1,22 @@
 [[section-glossary]]
 == Glossary
 
-
-
-[role="arc42help"]
-****
-.Contents
-The most important domain and technical terms that your stakeholders use when discussing the system.
-
-You can also see the glossary as source for translations if you work in multi-language teams.
-
-.Motivation
-You should clearly define your terms, so that all stakeholders
-
-* have an identical understanding of these terms
-* do not use synonyms and homonyms
-
-.Form
-A table with columns <Term> and <Definition>.
-
-Potentially more columns in case you need translations.
-
-****
+//INTRODUCIR EN ORDEN ALFABETICO
 
 [options="header"]
 |===
-| Term         | Definition
-| <Term-1>     | <definition-1>
-| <Term-2>     | <definition-2>
+|Term| Definition
+|AsciiDoc| Formato de escritura en texto plano que puede convertirse a otros formatos como HTML, PDF o ePub.
+|AsciiDoctor| Herramienta de codigo abierto basada en la sintaxis de AsciiDoc.
+|API| Es un conjunto de reglas (código) y especificaciones que las aplicaciones pueden seguir para comunicarse entre ellas: sirviendo de interfaz entre programas diferentes de la misma manera en que la interfaz de usuario facilita la interacción humano-software.
+|Arc 42| Modelo divido en 12 secciones utilizado para comunicar y documentar software y arquitecturas de sistemas.
+|Cross-site request forgery| Tipo de exploit malicioso de un sitio web en el que comandos no autorizados son transmitidos por un usuario en el cual el sitio web confía.
+|Google Maps| Servidor de aplicaciones de mapas en la web que pertenece a Alphabet Inc.
+|Jest| Jest es un Framework utilizado para realizar pruebas en JavaScript. Esta enfocado en la simplicidad y no necesita configuracion. Funciona con proyectos usando: Babel, TypeScript, Node, React, Angular, Vue, etc.
+|JSON| Es un formato de texto sencillo para el intercambio de datos. Se trata de un subconjunto de la notación literal de objetos de JavaScript.
+|Node| Entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor basado en el lenguaje de programación ECMAScript.
+|POD| Personal Online Data, es el espacio en el que se almacenan tus datos, imágenes, etc.
+|React| React es una biblioteca escrita en JavaScript, desarrollada en Facebook para facilitar la creación de componentes interactivos, reutilizables, para interfaces de usuario.
+|Ruta| Camino determinado que va de un sitio a otro.
+|SOLID| Deriva de Social Linked Data, es un conjunto de convenciones y herramientas para construir aplicaciones sociales descentralizadas.
 |===

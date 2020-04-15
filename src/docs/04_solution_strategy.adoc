@@ -2,7 +2,7 @@
 == Estrategia de solución
 
 
-****
+
 A continuación se hablará de qué compromisos o estrategias se han seguido para implementar la solución.
 
 **Decisiones tecnológicas**

@@ -1,0 +1,14 @@
+{
+  env: {
+    node: true,
+  },
+  extends: plugin:jest/recommended,
+  rules: {
+    callback-return: off,
+    global-require: off,
+    func-style: off,
+    new-cap: off,
+    no-console: [ error, { allow: [ mute, unmute ] } ],
+    no-empty-function: off,
+  },
+}
