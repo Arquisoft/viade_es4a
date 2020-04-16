@@ -44,3 +44,11 @@ gem install asciidoctor
 gem install asciidoctor-diagram 
 npm run docs
 ```
+
+## Run test
+
+```
+Chi is required. 
+npm i chi 
+npm test:e2e
+```
