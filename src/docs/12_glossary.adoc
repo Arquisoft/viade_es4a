@@ -20,6 +20,9 @@
 |POD| Personal Online Data, es el espacio en el que se almacenan tus datos, imágenes, etc.
 |React| React es una biblioteca escrita en JavaScript, desarrollada en Facebook para facilitar la creación de componentes interactivos, reutilizables, para interfaces de usuario.
 |Ruby| Es un lenguaje de programación interpretado, reflexivo y orientado a objeto
+|POD| Personal Online Data, es el espacio en el que se almacenan tus datos, imágenes, etc.
+|React| React es una biblioteca escrita en JavaScript, desarrollada en Facebook para facilitar la creación de componentes interactivos, reutilizables, para interfaces de usuario.
+
 |Ruta| Camino determinado que va de un sitio a otro.
 |SOLID| Deriva de Social Linked Data, es un conjunto de convenciones y herramientas para construir aplicaciones sociales descentralizadas.
 |===

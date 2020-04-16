@@ -12,7 +12,7 @@ This project shows how to create a new react webapp and configure it using travi
  * Aique Montes.
  * Raúl García.
  * Pelayo Rodríguez.
- * Adrián Moro.
+ * Adrián Díaz.
 
 ## Requirements
   * Node js : You’ll need to have Node 8.16.0 or Node 10.16.0 or later version on your local development machine.
