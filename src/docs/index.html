@@ -576,71 +576,16 @@ Los usuarios de la aplicación buscarán registrar sus rutas en el pod propio, l
 <div class="ulist">
 <ul>
 <li>
-<p>Accesibilidad: diseño de una aplicación accesible para personas con discapacidades</p>
-</li>
-<li>
 <p>Disponibilidad: diseño de una aplicación que asegure un cierto grado absoluto de continuidad operacional durante un periodo de duración dado.</p>
 </li>
 <li>
-<p>Modificabilidad: diseño de una aplicación con un software mantenible en el tiempo.</p>
-</li>
-<li>
-<p>Rendimiento: capacidad del sistema a realizar operaciones sin un uso excesivo de recursos (memoria, datos, etc).</p>
-</li>
-<li>
-<p>Seguridad: diseño de una aplicación que no sea vulnerable a:</p>
-<div class="ulist">
-<ul>
-<li>
-<p>SQL Injection.</p>
-</li>
-<li>
-<p>Comand Injection.</p>
-</li>
-<li>
-<p>Fuga de información.</p>
-</li>
-<li>
-<p>Puertas traseras.</p>
-</li>
-<li>
-<p>Man in the middle.</p>
-</li>
-<li>
-<p>Cross-site request forgery.</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>Testeabilidad: diseño de una aplicación que sea capaz de pasar un software mínimo de pruebas para comprobar el correcto funcionamiento de esta.</p>
+<p>Seguridad: diseño de una aplicación que no sea vulnerable a ataques externos</p>
 </li>
 <li>
 <p>Usabilidad: diseño de una aplicación que sea fácil de usar por parte de los usuarios que interactúen con ella.</p>
 </li>
 <li>
-<p>Escalabilidad: capacidad de la apliación para albergar un mayor volumen de datos.</p>
-</li>
-<li>
-<p>Interoperabilidad: capacidad de la aplicación para interactuar y coexistir con otros sistemas.</p>
-</li>
-<li>
 <p>Portabilidad: característica que posee un software para ejecutarse en diferentes plataformas.</p>
-</li>
-<li>
-<p>Integridad: diseño de una aplicación que mantenga la información exacta a como fue generada sin ser editada por usuarios o procesos no autizados a ello.</p>
-</li>
-<li>
-<p>Consistencia: diseño de una aplicación que mantenga sus datos correctos en todo momento.</p>
-</li>
-<li>
-<p>Robustez: capacidad de la aplicación para actuar y sobreponerse a errores no esperados en tiempo de ejecución.</p>
-</li>
-<li>
-<p>Modular: diseño de una aplicación mediante subdivisiones de esta, independientes unas de otras.</p>
-</li>
-<li>
-<p>Trazable: capacidad de la aplicación a seguir el rastro a las actividades realizadas en ella en todas las etapas de su ciclo de vida.</p>
 </li>
 </ul>
 </div>
@@ -750,6 +695,10 @@ Los usuarios de la aplicación buscarán registrar sus rutas en el pod propio, l
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Inrupt</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Obtener una aplicación descentralizada para tener un almacen de rutas</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Usuario app</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Espera una app usable, que no tenga dificultades de uso y sea fácil de interaccionar con ella.</p></td>
 </tr>
 </tbody>
 </table>
@@ -930,9 +879,34 @@ Debido a la restricción RT1, toda la parte de interfaz gráfica estará situada
 <div class="sect1">
 <h2 id="section-building-block-view">5. Building Block View</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>Se irá desarrollando a lo largo de la asignatura</p>
+<div class="imageblock">
+<div class="content">
+<img src="./images/Viade.PNG" alt="Viade">
 </div>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 6. Level 1 descriptions</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Name</th>
+<th class="tableblock halign-left valign-top">Responsibility</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Pod</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Descrito en glosario</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Viade</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Nuestra app</p></td>
+</tr>
+</tbody>
+</table>
 <div style="page-break-after: always;"></div>
 </div>
 </div>
@@ -957,6 +931,14 @@ Debido a la restricción RT1, toda la parte de interfaz gráfica estará situada
 </div>
 <div class="paragraph">
 <p>*Explicacion: El usuario entrará a su perfil de SOLID, introducirá sus credenciales para que el servidor de SOLID los valide, una vez hecho, devolverá si el logueo fue satisfactorio o no. Después, registrará la ruta y quedará almacenada en su propio POD</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="./images/ListadoRutas.PNG" alt="Listar rutas del POD">
+</div>
+</div>
+<div class="paragraph">
+<p>*Explicacion: El usuario entrará a su perfil de SOLID, introducirá sus credenciales para que el servidor de SOLID los valide, una vez hecho, devolverá si el logueo fue satisfactorio o no. Después, accederá al POD del usuario para recuperar el listado de rutas y mostrarselas al usuario.</p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -1176,8 +1158,24 @@ Los patrones de diseño se añadirán más adelante.</p>
 </thead>
 <tbody>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">AsciiDoc</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Formato de escritura en texto plano que puede convertirse a otros formatos como HTML, PDF o ePub.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">AsciiDoctor</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Herramienta de codigo abierto basada en la sintaxis de AsciiDoc.</p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">API</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Es un conjunto de reglas (código) y especificaciones que las aplicaciones pueden seguir para comunicarse entre ellas: sirviendo de interfaz entre programas diferentes de la misma manera en que la interfaz de usuario facilita la interacción humano-software.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Arc 42</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Modelo divido en 12 secciones utilizado para comunicar y documentar software y arquitecturas de sistemas.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Chi</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Es un paquete de expressjs para trabajar en las pruebas de la aplicación</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Cross-site request forgery</p></td>
@@ -1188,8 +1186,20 @@ Los patrones de diseño se añadirán más adelante.</p>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Servidor de aplicaciones de mapas en la web que pertenece a Alphabet Inc.</p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Jest</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Jest es un Framework utilizado para realizar pruebas en JavaScript. Esta enfocado en la simplicidad y no necesita configuracion. Funciona con proyectos usando: Babel, TypeScript, Node, React, Angular, Vue, etc.</p></td>
+</tr>
+<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">JSON</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Es un formato de texto sencillo para el intercambio de datos. Se trata de un subconjunto de la notación literal de objetos de JavaScript.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Node</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor basado en el lenguaje de programación ECMAScript.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Parser</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Programa informático que analiza una cadena de símbolos de acuerdo a las reglas de una gramática formal</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">POD</p></td>
@@ -1198,6 +1208,10 @@ Los patrones de diseño se añadirán más adelante.</p>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">React</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">React es una biblioteca escrita en JavaScript, desarrollada en Facebook para facilitar la creación de componentes interactivos, reutilizables, para interfaces de usuario.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ruby</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Es un lenguaje de programación interpretado, reflexivo y orientado a objeto</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Ruta</p></td>
@@ -1234,7 +1248,7 @@ Created by Dr. Peter Hruschka &amp; Dr. Gernot Starke.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-03-04 15:15:20 +0100
+Last updated 2020-04-01 09:58:19 +0200
 </div>
 </div>
 </body>
