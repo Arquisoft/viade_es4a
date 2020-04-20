@@ -17,8 +17,8 @@ This project shows how to create a new react webapp and configure it using travi
 ## Requirements
   * Node js : You’ll need to have Node 8.16.0 or Node 10.16.0 or later version on your local development machine.
   * Ruby.
-  * AsciiDoctor : You’ll need to have asciiDoctor-diagrams.
-  
+  * AsciiDoctor : You’ll need to have asciiDoctor and asciiDoctor-diagrams.
+
 
 ```
 sudo apt-get update
