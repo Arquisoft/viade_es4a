@@ -10,7 +10,7 @@ before_install:
   - sudo gem install asciidoctor asciidoctor-diagram
 script:
   - npm install -g codecov
-  - npm test && codecov
+  - npm test
   - npm run build
   - npm run docs
 after_success:
