@@ -13,3 +13,8 @@ image::InicioSesion.PNG[Inicio de Sesion]
 image::PublicarRuta.PNG[Publicar ruta en POD]
 
 *Explicacion: El usuario entrará a su perfil de SOLID, introducirá sus credenciales para que el servidor de SOLID los valide, una vez hecho, devolverá si el logueo fue satisfactorio o no. Después, registrará la ruta y quedará almacenada en su propio POD
+
+
+image::ListadoRutas.PNG[Listar rutas del POD]
+
+*Explicacion: El usuario entrará a su perfil de SOLID, introducirá sus credenciales para que el servidor de SOLID los valide, una vez hecho, devolverá si el logueo fue satisfactorio o no. Después, accederá al POD del usuario para recuperar el listado de rutas y mostrarselas al usuario.
