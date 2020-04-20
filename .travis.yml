@@ -13,6 +13,8 @@ script:
   - npm test && codecov
   - npm run build
   - npm run docs
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
 deploy:
   provider: pages
   skip_cleanup: true
