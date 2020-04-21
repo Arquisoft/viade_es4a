@@ -67,7 +67,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": " node scripts/test.js && jest --config jest-config.js",
+    "test": " node scripts/test.js",
     "docs": "shx rm -rf build/docs && asciidoctor -D build/docs -a imagesdir=./images -r asciidoctor-diagram src/docs/index.adoc && shx cp -R src/docs/images build/docs",
     "eject": "react-scripts eject",
     "test:e2e": "jest -c jest-config.js"
