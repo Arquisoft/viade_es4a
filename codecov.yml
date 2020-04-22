@@ -1,2 +1,5 @@
 ignore:
   - "src/index.js"
+  - "src/components/ReactComponents"
+  - "src/components/components"
+  - "src/components/AutoSaveSprinner"
