@@ -50,7 +50,7 @@ npm run docs
 
 ## Run test
 
-```
+```sh
 Chi is required. 
 npm i chi 
 npm test:e2e
