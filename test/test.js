@@ -1,6 +1,6 @@
 import { Person } from '../src/person.js'
 import { describe, it } from 'mocha'
-import { assert, expect } from 'chai'
+
 
 describe('person', function () {
   it('has default age of 0', function () {
