@@ -29,7 +29,7 @@ sudo apt-get -y install graphviz
 
 ## Run project
 
-```
+```sh
 npm install
 npm start
 ```
