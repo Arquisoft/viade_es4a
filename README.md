@@ -19,8 +19,7 @@ This project shows how to create a new react webapp and configure it using travi
 *   Ruby.
 *   AsciiDoctor : You’ll need to have asciiDoctor and asciiDoctor-diagrams.
 
-
-```
+```sh
 sudo apt-get update
 sudo apt-get -y install ruby nodejs
 sudo gem install asciidoctor asciidoctor-diagram
@@ -29,7 +28,7 @@ sudo apt-get -y install graphviz
 
 ## Run project
 
-```
+```sh
 npm install
 npm start
 ```
@@ -40,7 +39,7 @@ Or, you can entry in this web <https://arquisoft.github.io/viade_es4a/> and you 
 
 ## Build documentation
 
-```
+```sh
 Node and Ruby are required. 
 npm install
 gem install asciidoctor
@@ -50,7 +49,7 @@ npm run docs
 
 ## Run test
 
-```
+```sh
 Chi is required. 
 npm i chi 
 npm test:e2e
