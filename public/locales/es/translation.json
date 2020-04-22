@@ -53,13 +53,13 @@
     "formModelRender": "Form Model Render",
     "formModelConvert": "Form Model Convert",
     "text-editor": "Editor de Textos",
-    "addRoute":"Añadir Ruta",
-    "viewRoute":"Ver Ruta",
+    "addRoute": "Añadir Ruta",
+    "viewRoute": "Ver Ruta",
     "changeLanguage": "Cambiar Lenguaje",
-    "uploadRoute":"Subir Ruta",
-    "friends":"Amigos",
+    "uploadRoute": "Subir Ruta",
+    "friends": "Amigos",
     "routList": "Listar rutas",
-    "mapa":"Mapa",
+    "mapa": "Mapa",
     "languages": {
       "en": "English (Inglés)",
       "es": "Español (Español)"
