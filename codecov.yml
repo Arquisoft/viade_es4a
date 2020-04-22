@@ -3,3 +3,5 @@ ignore:
   - "src/components/ReactComponents"
   - "src/components/components"
   - "src/components/AutoSaveSprinner"
+  - "src/utils/index.js"
+  - "src/layouts"
