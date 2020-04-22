@@ -1,7 +1,7 @@
 html,
 body,
 #root {
-  height: 100% !important;
+  height: 100% ;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -55,13 +55,13 @@ Temporary fix to overwrite and display the default style of the checkbox
 to prevent issues with the custom component and react/fontawesome missing icons
  */
 input[type="checkbox"] {
-  appearance: checkbox !important;
-  -webkit-appearance: checkbox !important;
-  -moz-appearance: checkbox !important;
-  margin: 0 0 0 16px !important
+  appearance: checkbox ;
+  -webkit-appearance: checkbox ;
+  -moz-appearance: checkbox ;
+  margin: 0 0 0 16px 
 }
 input[type="checkbox"]::before {
-  content: none !important;
+  content: none ;
 }
 /**
 Ends temporary react/fontawesome fix
@@ -126,9 +126,9 @@ form-group .select-role {
 
 /* Overriding the center-align property from the styleguide */
 .solid-provider-select {
-  text-align: left !important;
+  text-align: left ;
 }
 
 .solid-provider-select .option {
-  padding-left: 10px !important;
+  padding-left: 10px ;
 }
