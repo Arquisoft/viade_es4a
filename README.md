@@ -7,17 +7,17 @@
 This project shows how to create a new react webapp and configure it using travis in order to enable continuous integration for students of Oviedo's University.
 
 ## Contributors
- * Israel Méndez.
- * Antonio Flambó.
- * Aique Montes.
- * Raúl García.
- * Pelayo Rodríguez.
- * Adrián Díaz.
+*   Israel Méndez.
+*   Antonio Flambó.
+*   Aique Montes.
+*   Raúl García.
+*   Pelayo Rodríguez.
+*   Adrián Díaz.
 
 ## Requirements
-  * Node js : You’ll need to have Node 8.16.0 or Node 10.16.0 or later version on your local development machine.
-  * Ruby.
-  * AsciiDoctor : You’ll need to have asciiDoctor and asciiDoctor-diagrams.
+*   Node js : You’ll need to have Node 8.16.0 or Node 10.16.0 or later version on your local development machine.
+*   Ruby.
+*   AsciiDoctor : You’ll need to have asciiDoctor and asciiDoctor-diagrams.
 
 
 ```
@@ -36,7 +36,7 @@ npm start
 
 If you have installed yet, you don't need npm install, you can use npm update for actualize the dependencies.
 
-Or, you can entry in this web https://arquisoft.github.io/viade_es4a/ and you can work with our app.
+Or, you can entry in this web <https://arquisoft.github.io/viade_es4a/> and you can work with our app.
 
 ## Build documentation
 
