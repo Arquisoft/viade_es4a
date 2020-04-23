@@ -22,6 +22,6 @@
 |React| React es una biblioteca escrita en JavaScript, desarrollada en Facebook para facilitar la creación de componentes interactivos, reutilizables, para interfaces de usuario.
 |Ruby| Es un lenguaje de programación interpretado, reflexivo y orientado a objetos.
 |Ruta| Camino determinado que va de un sitio a otro.
-|Travis CI| Servicio de integración continua utilizado para construir y probar proyectos de software alojados en GitHub. 
+|Travis| Servicio de integración continua utilizado para construir y probar proyectos de software alojados en GitHub. 
 |SOLID| Deriva de Social Linked Data, es un conjunto de convenciones y herramientas para construir aplicaciones sociales descentralizadas.
 |===
