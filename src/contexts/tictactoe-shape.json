@@ -26,7 +26,8 @@
       "predicate": "opponent"
     },
     {
-      "prefix": "game", "predicate": "initialState"
+      "prefix": "game",
+      "predicate": "initialState"
     },
     {
       "prefix": "game",
