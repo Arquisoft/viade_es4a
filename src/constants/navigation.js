@@ -58,7 +58,7 @@ export const NavigationItems = [
   },
   {
     id:'routList',
-    icon:'/img/icon/tictactoe.svg',
+    icon:'/img/icon/listRoute.png',
     label:'navBar.routList',
     to:'/routList'
   }
