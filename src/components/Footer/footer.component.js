@@ -29,22 +29,32 @@ const Footer = (props: Props) => {
           <ul>
             <li>
               <a
-                href="https://github.com/inrupt/solid-react-sdk"
+                href="https://solid.inrupt.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FontAwesomeIcon className="link-icon" icon={githubIconDef} />
-                react-solid-sdk
+                Solid 
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/inrupt/solid-style-guide"
+                href="https://github.com/Arquisoft/viade_es5a"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FontAwesomeIcon className="link-icon" icon={githubIconDef} />
-                solid-style-guide
+                viade_es5a
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/Arquisoft"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon className="link-icon" icon={githubIconDef} />
+                Arquisoft
               </a>
             </li>
           </ul>
