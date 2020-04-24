@@ -6,7 +6,7 @@ export const NavigationItems = [
     id: 'welcome',
     icon: '/img/icon/apps.svg',
     label: 'navBar.welcome',
-    to: '/welcome'
+    to: '/viade_es4a/welcome'
   }
 ];
 

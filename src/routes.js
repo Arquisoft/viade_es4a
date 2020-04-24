@@ -25,17 +25,17 @@ import {
 const privateRoutes = [
   {
     id: 'welcome',
-    path: '/welcome',
+    path: '/viade_es4a/welcome',
     component: Welcome
   },
   {
     id: 'Mapa',
-    path: '/mapa',
+    path: '/viade_es4a/mapa',
     component: MyMapComponent
   },
   {
     id: 'profile',
-    path: '/profile',
+    path: '/viade_es4a/profile',
     component: Profile
   },
   /*
@@ -68,27 +68,27 @@ const privateRoutes = [
   },
   {
     id: 'addRoute',
-    path: '/addRoute',
+    path: '/viade_es4a/addRoute',
     component: addRoute
   },
   {
     id: 'viewRoute',
-    path: '/viewRoute',
+    path: '/viade_es4a/viewRoute',
     component: viewRoute
   },
   {
     id: 'uploadRoute',
-    path: '/uploadRoute',
+    path: '/viade_es4a/uploadRoute',
     component: UploadRoute
   },
   {
     id: 'friends',
-    path: '/friends',
+    path: '/viade_es4a/friends',
     component: Friends
   },
   {
     id: 'routList',
-    path: '/routList',
+    path: '/viade_es4a/routList',
     component: RoutList
   }
 
@@ -98,13 +98,14 @@ const Routes = () => (
   <Router>
     <Fragment>
       <Switch>
-        <NotLoggedInLayout component={Login} path="/login" exact />
-        <NotLoggedInLayout component={Register} path="/register" exact />
-        <NotLoggedInLayout path="/register/success" component={RegistrationSuccess} exact />
-        <PublicLayout path="/404" component={PageNotFound} exact />
-        <Redirect from="/" to="/welcome" exact />
-        <PrivateLayout path="/" routes={privateRoutes} />
-        <Redirect to="/404" />
+        <NotLoggedInLayout component={Login} path="/viade_es4a/login" exact />
+        <NotLoggedInLayout component={Register} path="/viade_es4a/register" exact />
+        <NotLoggedInLayout path="/viade_es4a/register/success" component={RegistrationSuccess} exact />
+        <PublicLayout path="/viade_es4a/404" component={PageNotFound} exact />
+        <Redirect from="/" to="/viade_es4a/welcome" exact />
+        <PrivateLayout path="/viade_es4a/" routes={privateRoutes} />
+        <Redirect from="/login" to="/viade_es4a/login" exact />
+        <Redirect from="/viade_es4a/#" to="/viade_es4a/welcome" exact />
       </Switch>
     </Fragment>
   </Router>

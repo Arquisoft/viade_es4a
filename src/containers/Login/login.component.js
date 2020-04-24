@@ -15,7 +15,7 @@ const LoginComponent = () => {
         <h1 data-testid="title">{t('login.title')}</h1>
         <LoginPanel className="login-panel">
           <PanelBody className="panel-body">
-            <Link className="ids-link-filled ids-link-filled--primary" to="/register">
+            <Link className="ids-link-filled ids-link-filled--primary" to="/viade_es4a/register">
               {t('login.register')}
             </Link>
             <a

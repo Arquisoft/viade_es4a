@@ -57,8 +57,8 @@ const NavBar = (props: Props) => {
     <header role="navigation" className="header header__desktop fixed" ref={componentElement}>
       <section className="header-wrap">
         <div className="logo-block">
-          <Link to="/welcome">
-            <img src="/img/inrupt.svg" alt="inrupt" />
+          <Link to="/viade_es4a/welcome">
+            <img src="/viade_es4a/img/inrupt.svg" alt="inrupt" />
           </Link>
         </div>
 
