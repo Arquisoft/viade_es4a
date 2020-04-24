@@ -44,7 +44,7 @@ const Footer = (props: Props) => {
                 rel="noopener noreferrer"
               >
                 <FontAwesomeIcon className="link-icon" icon={githubIconDef} />
-                viade_es5a
+                Viade_es4a
               </a>
             </li>
             <li>
