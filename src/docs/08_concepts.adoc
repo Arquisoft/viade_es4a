@@ -1,5 +1,5 @@
 [[section-concepts]]
-== Concepts
+== Conceptos
 
 
 En este apartado se describirá, generalmente las principales regulaciones e ideas de soluciones que serán relevantes en nuestro sistema.

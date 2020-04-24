@@ -1,11 +1,11 @@
 [[section-glossary]]
-== Glossary
+== Glosario
 
 //INTRODUCIR EN ORDEN ALFABETICO 
 
 [options="header"]
 |===
-|Term| Definition
+|Termino| Definición
 |AsciiDoc| Formato de escritura en texto plano que puede convertirse a otros formatos como HTML, PDF o ePub.
 |AsciiDoctor| Herramienta de codigo abierto basada en la sintaxis de AsciiDoc.
 |API| Es un conjunto de reglas (código) y especificaciones que las aplicaciones pueden seguir para comunicarse entre ellas: sirviendo de interfaz entre programas diferentes de la misma manera en que la interfaz de usuario facilita la interacción humano-software.

@@ -1,14 +1,14 @@
 [[section-building-block-view]]
 
 
-== Building Block View
+== Vista bloque de construcción
 
 image::Viade.png[Viade]
 
 
-.Level 1 descriptions
+.Descripciones Nivel 1
 |===
-|Name |Responsibility
+|Nombre |Responsabilidad
 
 |Pod 
 |Descrito en glosario

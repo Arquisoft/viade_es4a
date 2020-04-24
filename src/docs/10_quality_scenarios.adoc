@@ -1,15 +1,15 @@
 [[section-quality-scenarios]]
-== Quality Requirements
+== Requerimientos de calidad
 En este apartado vamos a explicar algunos de los requisitos de calidad de este proyecto.
 
-=== Quality Tree
+=== Arbol de calidad
 image::qualityTree.png["qualityTree"]
 
-=== Quality Scenarios
+=== Escenarios de calidad
 
 [cols=3*,options="header"]
 |===
-|Quality attributes
+|Atributos de calidad
 |Escenarios
 |Prioridad
 

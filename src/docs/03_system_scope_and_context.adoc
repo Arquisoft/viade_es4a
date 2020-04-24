@@ -1,7 +1,6 @@
 [[section-system-scope-and-context]]
-== System Scope and Context
-=== Business Context
-
+== Contexto y alcance del sistema
+=== Contexto de negocio
 
 ****
 Nuestra aplicacion de rutas descentralizada permitira a los usuarios logearse a traves de su POD que es su identificador en la comunidad de SOLID. El usuario podra
@@ -10,7 +9,7 @@ subir sus rutas con imagenes de esta. Las rutas y las imagenes quedaran almacena
 image::DiagramaNegocio.png[Diagrama de Negocio]
 
 ****
-=== Technical Context
+=== Contexto tecnico
 
 
 ****

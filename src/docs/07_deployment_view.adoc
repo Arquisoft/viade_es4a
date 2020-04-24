@@ -1,6 +1,6 @@
 [[section-deployment-view]]
 
 
-== Deployment View
+== Vista despliegue
 
-Se irá desarrollando segun avance el proyecto
+Se ira desarrollando segun avance el proyecto

@@ -440,27 +440,27 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="header">
 <h1><span class="image"><img src="./images/LogoASW.png" alt="arc42"></span> VIADE ES4A</h1>
 <div id="toc" class="toc2">
-<div id="toctitle">Table of Contents</div>
+<div id="toctitle">Tabla de contenidos</div>
 <ul class="sectlevel1">
-<li><a href="#section-introduction-and-goals">1. Introduction and Goals</a>
+<li><a href="#section-introduction-and-goals">1. Introducción y objetivos</a>
 <ul class="sectlevel2">
 <li><a href="#_vista_de_requisitos">1.1. Vista de requisitos</a></li>
 <li><a href="#_atributos_de_calidad">1.2. Atributos de calidad</a></li>
 <li><a href="#_stakeholders">1.3. Stakeholders</a></li>
 </ul>
 </li>
-<li><a href="#section-architecture-constraints">2. Architecture Constraints</a></li>
-<li><a href="#section-system-scope-and-context">3. System Scope and Context</a>
+<li><a href="#section-architecture-constraints">2. Restricciones de arquitectura</a></li>
+<li><a href="#section-system-scope-and-context">3. Contexto y alcance del sistema</a>
 <ul class="sectlevel2">
-<li><a href="#_business_context">3.1. Business Context</a></li>
-<li><a href="#_technical_context">3.2. Technical Context</a></li>
+<li><a href="#_contexto_de_negocio">3.1. Contexto de negocio</a></li>
+<li><a href="#_contexto_tecnico">3.2. Contexto tecnico</a></li>
 </ul>
 </li>
 <li><a href="#section-solution-strategy">4. Estrategia de solución</a></li>
-<li><a href="#section-building-block-view">5. Building Block View</a></li>
-<li><a href="#section-runtime-view">6. Runtime View</a></li>
-<li><a href="#section-deployment-view">7. Deployment View</a></li>
-<li><a href="#section-concepts">8. Concepts</a></li>
+<li><a href="#section-building-block-view">5. Vista bloque de construcción</a></li>
+<li><a href="#section-runtime-view">6. Vista tiempo de ejecución</a></li>
+<li><a href="#section-deployment-view">7. Vista despliegue</a></li>
+<li><a href="#section-concepts">8. Conceptos</a></li>
 <li><a href="#section-design-decisions">9. Decisiones de diseño</a>
 <ul class="sectlevel2">
 <li><a href="#_usar_google_maps">9.1. Usar Google Maps</a></li>
@@ -473,14 +473,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_solución">9.8. Solución</a></li>
 </ul>
 </li>
-<li><a href="#section-quality-scenarios">10. Quality Requirements</a>
+<li><a href="#section-quality-scenarios">10. Requerimientos de calidad</a>
 <ul class="sectlevel2">
-<li><a href="#_quality_tree">10.1. Quality Tree</a></li>
-<li><a href="#_quality_scenarios">10.2. Quality Scenarios</a></li>
+<li><a href="#_arbol_de_calidad">10.1. Arbol de calidad</a></li>
+<li><a href="#_escenarios_de_calidad">10.2. Escenarios de calidad</a></li>
 </ul>
 </li>
 <li><a href="#section-technical-risks">11. Riesgos y deuda técnica</a></li>
-<li><a href="#section-glossary">12. Glossary</a></li>
+<li><a href="#section-glossary">12. Glosario</a></li>
 </ul>
 </div>
 </div>
@@ -497,31 +497,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 }
 </style>
 <hr>
-<div class="sidebarblock">
-<div class="content">
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<div class="title">Note</div>
-</td>
-<td class="content">
-<div class="paragraph">
-<p>This version of the template contains some help and explanations.
-It is used for familiarization with arc42 and the understanding of the concepts.
-For documentation of your own system you use better the <em>plain</em> version.</p>
-</div>
-</td>
-</tr>
-</table>
-</div>
-</div>
-</div>
 <div style="page-break-after: always;"></div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="section-introduction-and-goals">1. Introduction and Goals</h2>
+<h2 id="section-introduction-and-goals">1. Introducción y objetivos</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Nos hemos propuesto desarrollar un sistema de gestión rutas descentralizado, siguiendo las caracteristicas de SOLID.
@@ -675,8 +655,8 @@ Los usuarios de la aplicación buscarán registrar sus rutas en el pod propio, l
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">Role/Name</th>
-<th class="tableblock halign-left valign-top">Expectations</th>
+<th class="tableblock halign-left valign-top">Rol/Nombre</th>
+<th class="tableblock halign-left valign-top">Expectativas</th>
 </tr>
 </thead>
 <tbody>
@@ -707,7 +687,7 @@ Los usuarios de la aplicación buscarán registrar sus rutas en el pod propio, l
 </div>
 </div>
 <div class="sect1">
-<h2 id="section-architecture-constraints">2. Architecture Constraints</h2>
+<h2 id="section-architecture-constraints">2. Restricciones de arquitectura</h2>
 <div class="sectionbody">
 <div class="sidebarblock">
 <div class="content">
@@ -798,10 +778,10 @@ Los usuarios de la aplicación buscarán registrar sus rutas en el pod propio, l
 </div>
 </div>
 <div class="sect1">
-<h2 id="section-system-scope-and-context">3. System Scope and Context</h2>
+<h2 id="section-system-scope-and-context">3. Contexto y alcance del sistema</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_business_context">3.1. Business Context</h3>
+<h3 id="_contexto_de_negocio">3.1. Contexto de negocio</h3>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
@@ -817,7 +797,7 @@ subir sus rutas con imagenes de esta. Las rutas y las imagenes quedaran almacena
 </div>
 </div>
 <div class="sect2">
-<h3 id="_technical_context">3.2. Technical Context</h3>
+<h3 id="_contexto_tecnico">3.2. Contexto tecnico</h3>
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
@@ -877,7 +857,7 @@ Debido a la restricción RT1, toda la parte de interfaz gráfica estará situada
 </div>
 </div>
 <div class="sect1">
-<h2 id="section-building-block-view">5. Building Block View</h2>
+<h2 id="section-building-block-view">5. Vista bloque de construcción</h2>
 <div class="sectionbody">
 <div class="imageblock">
 <div class="content">
@@ -885,15 +865,15 @@ Debido a la restricción RT1, toda la parte de interfaz gráfica estará situada
 </div>
 </div>
 <table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 6. Level 1 descriptions</caption>
+<caption class="title">Table 6. Descripciones Nivel 1</caption>
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">Name</th>
-<th class="tableblock halign-left valign-top">Responsibility</th>
+<th class="tableblock halign-left valign-top">Nombre</th>
+<th class="tableblock halign-left valign-top">Responsabilidad</th>
 </tr>
 </thead>
 <tbody>
@@ -911,7 +891,7 @@ Debido a la restricción RT1, toda la parte de interfaz gráfica estará situada
 </div>
 </div>
 <div class="sect1">
-<h2 id="section-runtime-view">6. Runtime View</h2>
+<h2 id="section-runtime-view">6. Vista tiempo de ejecución</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Diagrama para ver la interacción para crear un POD en SOLID</p>
@@ -944,16 +924,16 @@ Debido a la restricción RT1, toda la parte de interfaz gráfica estará situada
 </div>
 </div>
 <div class="sect1">
-<h2 id="section-deployment-view">7. Deployment View</h2>
+<h2 id="section-deployment-view">7. Vista despliegue</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Se irá desarrollando segun avance el proyecto</p>
+<p>Se ira desarrollando segun avance el proyecto</p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="section-concepts">8. Concepts</h2>
+<h2 id="section-concepts">8. Conceptos</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>En este apartado se describirá, generalmente las principales regulaciones e ideas de soluciones que serán relevantes en nuestro sistema.</p>
@@ -1050,13 +1030,13 @@ Los patrones de diseño se añadirán más adelante.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="section-quality-scenarios">10. Quality Requirements</h2>
+<h2 id="section-quality-scenarios">10. Requerimientos de calidad</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>En este apartado vamos a explicar algunos de los requisitos de calidad de este proyecto.</p>
 </div>
 <div class="sect2">
-<h3 id="_quality_tree">10.1. Quality Tree</h3>
+<h3 id="_arbol_de_calidad">10.1. Arbol de calidad</h3>
 <div class="imageblock">
 <div class="content">
 <img src="./images/qualityTree.png" alt="qualityTree">
@@ -1064,7 +1044,7 @@ Los patrones de diseño se añadirán más adelante.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_quality_scenarios">10.2. Quality Scenarios</h3>
+<h3 id="_escenarios_de_calidad">10.2. Escenarios de calidad</h3>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 33.3333%;">
@@ -1073,7 +1053,7 @@ Los patrones de diseño se añadirán más adelante.</p>
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">Quality attributes</th>
+<th class="tableblock halign-left valign-top">Atributos de calidad</th>
 <th class="tableblock halign-left valign-top">Escenarios</th>
 <th class="tableblock halign-left valign-top">Prioridad</th>
 </tr>
@@ -1143,7 +1123,7 @@ Los patrones de diseño se añadirán más adelante.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="section-glossary">12. Glossary</h2>
+<h2 id="section-glossary">12. Glosario</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -1152,8 +1132,8 @@ Los patrones de diseño se añadirán más adelante.</p>
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-top">Term</th>
-<th class="tableblock halign-left valign-top">Definition</th>
+<th class="tableblock halign-left valign-top">Termino</th>
+<th class="tableblock halign-left valign-top">Definición</th>
 </tr>
 </thead>
 <tbody>
@@ -1256,7 +1236,7 @@ Created by Dr. Peter Hruschka &amp; Dr. Gernot Starke.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-04-24 11:46:12 +0200
+Last updated 2020-04-24 14:22:48 +0200
 </div>
 </div>
 </body>

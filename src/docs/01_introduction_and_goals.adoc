@@ -1,5 +1,5 @@
 [[section-introduction-and-goals]]
-== Introduction and Goals
+== Introducción y objetivos
 
 Nos hemos propuesto desarrollar un sistema de gestión rutas descentralizado, siguiendo las caracteristicas de SOLID.
 Buscaremos desarrollar el proyecto para que tenga un sistema con una arquitectura descentralizada, que separe el amacenamiento de datos de la aplicación que estamos desarrollando. También, tenemos como objetivo que los usuarios puedan almacenar los datos de sus rutas en sus pods.
@@ -57,7 +57,7 @@ Los usuarios de la aplicación buscarán registrar sus rutas en el pod propio, l
 .Stakeholders
 [options="header",cols="2*"]
 |===
-|Role/Name|Expectations
+|Rol/Nombre|Expectativas
 | Profesorado de la asignatura | Seguir un proceso de desarrollo de la aplicación de acuerdo a lo visto en la asignatura, así como un correcto diseño y arquitectura del producto final.
 | SOLID | Realizar sistema de gestión de rutas descentralizado.
 | Equipo de desarrollo | Realizar el trabajo asignado siguiendo los requisitos establecidos en la documentación siguiendo una metodología ágil de acuerdo a lo aprendido en la asignatura.

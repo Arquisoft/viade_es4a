@@ -1,5 +1,5 @@
 [[section-runtime-view]]
-== Runtime View
+== Vista tiempo de ejecución
 
 
 
