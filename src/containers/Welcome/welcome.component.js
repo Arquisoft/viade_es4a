@@ -88,19 +88,15 @@ export const WelcomePageContent = props => {
               </a>
             </h3>
           </Trans>
-          <Trans i18nKey="welcome.description">
-            <p>
-              text
-              <a
-                href="https://github.com/inrupt/solid-react-sdk"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                link{' '}
-              </a>{' '}
-              text
-            </p>
-          </Trans>
+           <ul>
+			<li>Adrián Díaz Moro</li>
+			<li>Aique Montes Mastre</li>
+			<li>Antonio Fernández Flambó</li>
+			<li>Israel Méndez Rodríguez</li>
+			<li>Pelayo Rodríguez García</li>
+			<li>Raúl García Arenas</li>
+			</ul>
+
         </WelcomeDetail>
       </WelcomeCard>
     </WelcomeWrapper>
