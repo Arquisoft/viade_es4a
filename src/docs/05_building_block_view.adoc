@@ -3,7 +3,7 @@
 
 == Building Block View
 
-image::Viade.PNG[Viade]
+image::Viade.png[Viade]
 
 
 .Level 1 descriptions
