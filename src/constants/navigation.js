@@ -4,14 +4,14 @@
 export const NavigationItems = [
   {
     id: 'welcome',
-    icon: '/img/icon/apps.svg',
+    icon: 'img/icon/apps.svg',
     label: 'navBar.welcome',
     to: '/welcome'
   },
   {
     id: 'profile',
     //icon: '/img/people.svg',
-    icon: '/img/icon/perfil.png',
+    icon: 'img/icon/perfil.png',
     label: 'navBar.profile',
     to: '/profile'
   },
@@ -33,39 +33,39 @@ export const NavigationItems = [
 
   {
     id:'addRoute',
-    icon:'/img/icon/addRoute.png',
+    icon:'img/icon/addRoute.png',
     label:'navBar.addRoute',
     to: '/addRoute'
   },
 
   {
     id:'uploadRoute',
-    icon:'/img/icon/uploadRoute.png',
+    icon:'img/icon/uploadRoute.png',
     label:'navBar.uploadRoute',
     to: '/uploadRoute'
   },
   {
     id:'viewRoute',
-    icon:'/img/icon/viewRoute.png',
+    icon:'img/icon/viewRoute.png',
     label:'navBar.viewRoute',
     to: '/viewRoute'
   },
   {
     id:'friends',
-    icon:'/img/icon/amigos.png',
+    icon:'img/icon/amigos.png',
     label:'navBar.friends',
     to: '/friends'
   },
   {
     id:'routList',
-    icon:'/img/icon/listRoute.png',
+    icon:'img/icon/listRoute.png',
     label:'navBar.routList',
     to:'/routList'
   }
 ,
   {
     id:'mapa',
-    icon:'/img/icon/mapa.png',
+    icon:'img/icon/mapa.png',
     label:'navBar.mapa',
     to: '/mapa'
   }
