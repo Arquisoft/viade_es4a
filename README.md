@@ -23,7 +23,7 @@ This project shows how to create a new react webapp and configure it using travi
 sudo apt-get update
 sudo apt-get -y install ruby nodejs
 sudo gem install asciidoctor asciidoctor-diagram
-sudo apt-get -y install graphviz
+sudo apt-get -y install graphviz 
 ```
 
 ## Run project
