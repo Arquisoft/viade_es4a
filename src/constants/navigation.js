@@ -2,12 +2,12 @@
  * Object mapping of known possible inboxes for the user
  */
 export const NavigationItems = [
-  {
-    id: 'welcome',
-    icon: 'img/icon/apps.svg',
-    label: 'navBar.welcome',
-    to: '/viade_es4a/welcome'
-  },
+  //{
+  //  id: 'welcome',
+  //  icon: 'img/icon/apps.svg',
+  //  label: 'navBar.welcome',
+  //  to: '/viade_es4a/welcome'
+  //},
   {
     id: 'profile',
     //icon: '/img/people.svg',
