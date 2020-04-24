@@ -47,6 +47,8 @@ gem install asciidoctor-diagram
 npm run docs
 ```
 
+Para ver la documentación: <https://arquisoft.github.io/viade_es4a/docs/index.html>
+
 ## Run test
 
 ```sh
