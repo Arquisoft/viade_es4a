@@ -101,7 +101,6 @@ const Routes = () => (
         <NotLoggedInLayout component={Login} path="/login" exact />
         <NotLoggedInLayout component={Register} path="/register" exact />
         <NotLoggedInLayout path="/register/success" component={RegistrationSuccess} exact />
-        <PublicLayout component={Welcome} path="/" exact/> {/* Welcome - "/" */}
         <PublicLayout path="/404" component={PageNotFound} exact />
         <Redirect from="/" to="/welcome" exact />
         <PrivateLayout path="/" routes={privateRoutes} />
