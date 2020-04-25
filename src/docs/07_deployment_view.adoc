@@ -1,6 +1,14 @@
 [[section-deployment-view]]
 
 
-== Vista despliegue
+== Vista tiempo de despliegue
 
-Se ira desarrollando segun avance el proyecto
+image::07-DeploymentView.PNG[Inicio de Sesion]
+
+Podemos ver un primer nodo que es el nodo del computador del usuario, él se conecta al navegador con Internet.
+
+El segundo nodo es la aplicación, necesitamos un servidor para conectarnos a la aplicación de rutas.
+
+Finalmente nos conectamos al último nodo, este nodo es un servidor SOLID que nos proporciona el POD del usuario, nos conectamos al pod del usuario para almacenar la ruta.
+
+La distribución de nuestro sistema fue la misma en todos los escenarios porque solo necesitamos una computadora con internet, podríamos probarla en casa y en la universidad de la misma manera. Desde el principio, sabíamos que se trataba de una aplicación de navegador y SOLID era nuestro sistema para almacenar información de nuestra comunicación, por lo que implementamos viade app para un navegador como Firefox, por lo que obviamente necesitamos una computadora con conexión a Internet y el navegador. Cualquier computadora puede usar la aplicación dechat. Después de conectarnos al chat en el navegador, usamos Internet para conectarnos al servidor SOLID y publicar las rutas.

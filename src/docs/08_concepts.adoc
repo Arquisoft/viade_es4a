@@ -5,10 +5,16 @@
 En este apartado se describirá, generalmente las principales regulaciones e ideas de soluciones que serán relevantes en nuestro sistema.
 
 .Modelo de dominio
-TO DO // Diagrama conceptual con los temas relacionados con un problema específico
+
+* Modelos de dominio: Utilizamos un dominio donde tenemos un archivo de índice que depende de bibliotecas, luego tenemos varias carpetas donde almacenamos pruebas y documentación
 
 .Conceptos de experiencia de usuario (UX)
-TO DO // explicacion interfaz de usuario que se añadirá cuando se decida.
+
+* User interface As user interface we can understand the interface of the application, in this case the interface is a normal chat interface like other chats applications.
+
+* Internationalization We did the application in English and for the moment we will not add internationalization to other lenguages.
+
+
 
 .Conceptos de seguridad
 La seguridad es uno de los temas claves en este proyecto. La aplicación al estar basada en SOLID archiva la información de cada usuario en su propio POD de forma descentralizada y segura, por lo que se evitan problemas de seguridad.
@@ -18,7 +24,12 @@ Se utilizará principalmente la arquitectura REACT para el diseño de la interfa
 Los patrones de diseño se añadirán más adelante.
 
 ."Under-the-hood"
-TO DO // Se añadirá más adelante
+ 
+* Manejo de sesión: Iniciamos sesión con nuestro usuario de SOLID en la aplicación, una vez que estamos en el servicio podemos comunicarnos con el servidor.
+
+* Persistencia para guardar nuestra información, la almacenamos en PODs en SOLID, por lo que no utilizamos información almacenada en bases de datos.
+
+
 
 .Conceptos de desarrollo
 A lo largo del proyecto, el equipo tendrá que
