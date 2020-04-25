@@ -50,7 +50,6 @@ class MapWithMarkers extends React.Component {
                         />
                     );
                 })}
-                return(
                 <Polyline
                     path={this.state.pathCoordinates}
                     geodesic={true}
@@ -66,7 +65,7 @@ class MapWithMarkers extends React.Component {
                             }
                         ]
                     }}
-                ></Polyline> );
+                ></Polyline>
 
             </GoogleMap>
 
