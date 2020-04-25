@@ -3,7 +3,7 @@
 
 == Vista tiempo de despliegue
 
-image::07-DeploymentView.PNG[Inicio de Sesion]
+image::07-DeploymentView.png[Vista de despliegue]
 
 Podemos ver un primer nodo que es el nodo del computador del usuario, él se conecta al navegador con Internet.
 
