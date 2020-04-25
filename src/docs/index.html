@@ -459,7 +459,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#section-solution-strategy">4. Estrategia de solución</a></li>
 <li><a href="#section-building-block-view">5. Vista bloque de construcción</a></li>
 <li><a href="#section-runtime-view">6. Vista tiempo de ejecución</a></li>
-<li><a href="#section-deployment-view">7. Vista despliegue</a></li>
+<li><a href="#section-deployment-view">7. Vista tiempo de despliegue</a></li>
 <li><a href="#section-concepts">8. Conceptos</a></li>
 <li><a href="#section-design-decisions">9. Decisiones de diseño</a>
 <ul class="sectlevel2">
@@ -924,10 +924,24 @@ Debido a la restricción RT1, toda la parte de interfaz gráfica estará situada
 </div>
 </div>
 <div class="sect1">
-<h2 id="section-deployment-view">7. Vista despliegue</h2>
+<h2 id="section-deployment-view">7. Vista tiempo de despliegue</h2>
 <div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="./images/07-DeploymentView.png" alt="Vista de despliegue">
+</div>
+</div>
 <div class="paragraph">
-<p>Se ira desarrollando segun avance el proyecto</p>
+<p>Podemos ver un primer nodo que es el nodo del computador del usuario, él se conecta al navegador con Internet.</p>
+</div>
+<div class="paragraph">
+<p>El segundo nodo es la aplicación, necesitamos un servidor para conectarnos a la aplicación de rutas.</p>
+</div>
+<div class="paragraph">
+<p>Finalmente nos conectamos al último nodo, este nodo es un servidor SOLID que nos proporciona el POD del usuario, nos conectamos al pod del usuario para almacenar la ruta.</p>
+</div>
+<div class="paragraph">
+<p>La distribución de nuestro sistema fue la misma en todos los escenarios porque solo necesitamos una computadora con internet, podríamos probarla en casa y en la universidad de la misma manera. Desde el principio, sabíamos que se trataba de una aplicación de navegador y SOLID era nuestro sistema para almacenar información de nuestra comunicación, por lo que implementamos viade app para un navegador como Firefox, por lo que obviamente necesitamos una computadora con conexión a Internet y el navegador. Cualquier computadora puede usar la aplicación dechat. Después de conectarnos al chat en el navegador, usamos Internet para conectarnos al servidor SOLID y publicar las rutas.</p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -938,13 +952,24 @@ Debido a la restricción RT1, toda la parte de interfaz gráfica estará situada
 <div class="paragraph">
 <p>En este apartado se describirá, generalmente las principales regulaciones e ideas de soluciones que serán relevantes en nuestro sistema.</p>
 </div>
-<div class="paragraph">
+<div class="ulist">
 <div class="title">Modelo de dominio</div>
-<p>TO DO // Diagrama conceptual con los temas relacionados con un problema específico</p>
+<ul>
+<li>
+<p>Modelos de dominio: Utilizamos un dominio donde tenemos un archivo de índice que depende de bibliotecas, luego tenemos varias carpetas donde almacenamos pruebas y documentación</p>
+</li>
+</ul>
 </div>
-<div class="paragraph">
+<div class="ulist">
 <div class="title">Conceptos de experiencia de usuario (UX)</div>
-<p>TO DO // explicacion interfaz de usuario que se añadirá cuando se decida.</p>
+<ul>
+<li>
+<p>User interface As user interface we can understand the interface of the application, in this case the interface is a normal chat interface like other chats applications.</p>
+</li>
+<li>
+<p>Internationalization We did the application in English and for the moment we will not add internationalization to other lenguages.</p>
+</li>
+</ul>
 </div>
 <div class="paragraph">
 <div class="title">Conceptos de seguridad</div>
@@ -955,9 +980,16 @@ Debido a la restricción RT1, toda la parte de interfaz gráfica estará situada
 <p>Se utilizará principalmente la arquitectura REACT para el diseño de la interfaz, la API de Google Maps para trabajar con las rutas y se trabajara con SOLID para almacenar la información personal de cada usuario en su propio POD.
 Los patrones de diseño se añadirán más adelante.</p>
 </div>
-<div class="paragraph">
+<div class="ulist">
 <div class="title">"Under-the-hood"</div>
-<p>TO DO // Se añadirá más adelante</p>
+<ul>
+<li>
+<p>Manejo de sesión: Iniciamos sesión con nuestro usuario de SOLID en la aplicación, una vez que estamos en el servicio podemos comunicarnos con el servidor.</p>
+</li>
+<li>
+<p>Persistencia para guardar nuestra información, la almacenamos en PODs en SOLID, por lo que no utilizamos información almacenada en bases de datos.</p>
+</li>
+</ul>
 </div>
 <div class="paragraph">
 <div class="title">Conceptos de desarrollo</div>
@@ -1236,7 +1268,7 @@ Created by Dr. Peter Hruschka &amp; Dr. Gernot Starke.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-04-24 14:22:48 +0200
+Last updated 2020-04-24 15:13:34 +0200
 </div>
 </div>
 </body>
