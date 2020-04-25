@@ -1,6 +1,5 @@
 import React from "react";
 import addRouteForm from './addRouteForm';
-import UploadRoute from '../UploadRoute/upload-route.container';
 
 
 
@@ -10,9 +9,6 @@ const addRoute= (props)=>{
     
     return(
         <div>
-            <div>
-                {UploadRoute(props)}
-            </div>
             <div>
                 {addRouteForm(props)}
             </div>

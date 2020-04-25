@@ -74,7 +74,7 @@ class NavBarProfile extends Component<Props> {
   }
 
   // eslint-disable-next-line react/destructuring-assignment
-  profileRedirect = () => this.props.history.push('/profile');
+  profileRedirect = () => this.props.history.push('/viade_es4a/profile');
 
   // eslint-disable-next-line react/destructuring-assignment
   formModelRenderRedirect = () => this.props.history.push('/formModel/renderer');
@@ -90,7 +90,7 @@ class NavBarProfile extends Component<Props> {
       // Remove localStorage
       localStorage.removeItem('solid-auth-client');
       // Redirect to login page
-      window.location = '/login';
+      window.location = '/viade_es4a/';
     } catch (error) {
       errorToaster(error.message, 'Error');
     }

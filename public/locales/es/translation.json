@@ -58,7 +58,7 @@
     "changeLanguage": "Cambiar Lenguaje",
     "uploadRoute": "Subir Ruta",
     "friends": "Amigos",
-    "routList": "Listar rutas",
+    "routList": "Listar Rutas",
     "mapa": "Mapa",
     "languages": {
       "en": "English (Inglés)",
@@ -83,8 +83,8 @@
   "welcome": {
     "welcome": "Bienvenido",
     "doneMessage": "¿Terminaste?",
-    "title": "<0>Esta aplicacion fue generada con <1>Solid React SDK by inrupt.</1></0>",
-    "description": "<0>Esta es una modificación para la implementación del módulo de rutas viade </0>",
+    "title": "<0>Esta aplicacion fue creada por el grupo de prácticas Viade_es4a.</0>",
+    "description": "<0><ul><li>Adrián Díaz Moro</li><li>Aique Montes Mastre</li><li>Antonio Fernández Flambó</li><li>Israel Méndez Rodríguez</li><li>Pelayo Rodríguez García</li><li>Raúl García Arenas</li></ul></0>",
     "libraryList": "<0><0><0> Componentes reutilizables </0>que puedes utilizar en tus propias aplicaciones.</0><1><0>Generador de aplicaciones</0>, incorpora todos los componentes y las buenas practicas en una misma aplicacion para el desarrollador. Nota: La aplicaciones Solid React, muestra el uso de los componentes instalados por el generador. No debe ser considerado como un servicio que Inrupt provee, y está sujeto a cambios.</0><0>Patrones de buenas prácticas que puedes referenciar como ejemplos para lograr resolver diferentes situaciones.</1></0>",
     "fairUsageTitle": "Condiciones de uso",
     "fairUsageText": "Los logos de Solid y Inrupt incluidos en este SDK son exclusivamente para ejemplo. Esperamos que los desarrolladores que utilicen nuestro SDK para propósitos comerciales los actualicen con sus propios logos.",

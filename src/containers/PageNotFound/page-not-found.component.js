@@ -17,7 +17,7 @@ const PageNotFound = () => {
         <h3>{t('notFound.title')}</h3>
         <p>{t('notFound.content')}</p>
         <div>
-          <Link to="/" className="ids-link">
+          <Link to="/viade_es4a" className="ids-link">
             {t('notFound.redirectButton')}
           </Link>
         </div>

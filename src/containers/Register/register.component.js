@@ -90,7 +90,7 @@ class RegisterComponent extends Component<Props, State> {
                     >
                       {t('register.whatIsAProvider')}
                     </a>
-                    <Link to="/login" className="a-with-spacing">
+                    <Link to="/viade_es4a/login" className="a-with-spacing">
                       {t('register.alreadySolid')}
                     </Link>
                     <ul>

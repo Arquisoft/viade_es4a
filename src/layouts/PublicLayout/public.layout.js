@@ -42,7 +42,7 @@ const PublicLayout = props => {
                   id: 'language'
                 },
                 {
-                  component: () => <Link to="/login">Login</Link>,
+                  component: () => <Link to="/viade_es4a/login">Login</Link>,
                   label: 'authComponent',
                   id: 'authComponent'
                 }
