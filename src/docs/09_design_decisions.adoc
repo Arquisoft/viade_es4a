@@ -1,25 +1,35 @@
 [[section-design-decisions]]
 == Decisiones de diseño
+=== Greenfield vs Legacy
+==== Problema
+Se plantea el problema del desarrollo de una aplicación descentralizada para el manejo de rutas con tecnologías bastante novedosas y la duda de si se podría reutilizar un esqueleto provisto por los creadores de SOLID.
 
-=== Usar Google Maps
+==== Alternativas
+La primera alternativa es el escenario Greenfield, en el que se tendría que construir la aplicación desde cero. El segundo escenario es adoptar este esqueleto y adaptarnos a sus restricciones
 
-=== Problema
-Si se quiere reflejar las rutas en un mapa, se deberá usar algún API de representación de mapas.
+==== Decisión
+Se opta por el escenario Legacy, en el que incluiremos este esqueleto en nuestra aplicación y nos moldearemos a su estructura.
 
-=== Alternativas
-Se considera usar versiones libres como OpenStreetMap o la conocida API Google maps.
 
-=== Decisión
-Se usará Google Maps ya que tiene una documentación mucho más extensa y el equipo es familiar en el uso de su API.
+=== Uso de react-google-maps
+
+==== Problema
+Para la representación de rutas en el mapa, se necesita una librería, compatible con React, que permita la actualización dinámica del mapa, así como el uso de marcadores y líneas. 
+
+==== Alternativas
+Se barajaron dos librerías, react-google-maps y google-maps-react. La primera es un wrapper de la segunda, que simplifica algunos procesos que son muy repetitivos, como la creación de un mapa simple o la incrustación de marcadores. La segunda es la librería oficial de Google, que cuenta con una amplia documentación y está actualizada al día.
+
+==== Decisión
+Se decide el uso de react-google-maps por simplificar mucho el proceso de creación. Se suplirá la falta de documentación con horas de investigación, pero se concluye que compensará.
 
 === Usar rdflib/LDFlex
-=== Problema
+==== Problema
 Se tiene que usar algún tipo de tecnología para manejar la parte de Linked Data de SOLID y la lectura y escritura en PODS.
 
-=== Alternativas
+==== Alternativas
 Para el manejo de Linked Data hay (hasta dónde se sabe) una sola librería bien documentada en JavaScript, y es rdflib. Para la escritura y lectura en PODS hay varias alternativas, pero se ha desarrollado una específica que funciona bien con SOLID y es LDFlex.
 
-=== Solución
+==== Solución
 Se usarán estas dos librerías que parecen ser estándar a la hora de trabajar con SOLID/Linked Data. Se aprenderán ambos frameworks.
 
 
