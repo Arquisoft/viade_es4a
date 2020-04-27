@@ -13,12 +13,13 @@
 |Chi| Es un paquete de expressjs para trabajar en las pruebas de la aplicación.
 |Codacy| Herramienta que identifica automáticamente problemas a través del análisis de revisión de código estático. Avisa sobre problemas de seguridad, cobertura de código, duplicación de código y complejidad de código en cada commit o pull request.
 |Cross-site request forgery| Tipo de exploit malicioso de un sitio web en el que comandos no autorizados son transmitidos por un usuario en el cual el sitio web confía.
-|Cucumber | Es una herramienta que permite ejecutar descripciones funcionales en texto plano como pruebas de software automatizadas. El lenguaje usado por Cucumber para estas descripciones funcionales se llama Guerkin.
+|Cucumber| Es una herramienta que permite ejecutar descripciones funcionales en texto plano como pruebas de software automatizadas. El lenguaje usado por Cucumber para estas descripciones funcionales se llama Guerkin.
 |Gatling| Es un marco de prueba de carga y rendimiento de código abierto basado en Scala, Akka y Netty.
 |Google Maps| Servidor de aplicaciones de mapas en la web que pertenece a Alphabet Inc.
-|Guerkin | Lenguaje Específico de Dominio creado para resolver un problema. 
+|Guerkin| Lenguaje Específico de Dominio creado para resolver un problema. 
 |Jest| Jest es un Framework utilizado para realizar pruebas en JavaScript. Esta enfocado en la simplicidad y no necesita configuracion. Funciona con proyectos usando: Babel, TypeScript, Node, React, Angular, Vue, etc.
 |JSON| Es un formato de texto sencillo para el intercambio de datos. Se trata de un subconjunto de la notación literal de objetos de JavaScript.
+|Mocha| Framework de pruebas de JavaScript que se ejecuta en Node.js. Nos da la posibilidad de crear tanto tests síncronos como asíncronos de una forma muy sencilla. 
 |Node| Entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor basado en el lenguaje de programación ECMAScript.
 |Parser| Programa informático que analiza una cadena de símbolos de acuerdo a las reglas de una gramática formal.
 |POD| Personal Online Data, es el espacio en el que se almacenan tus datos, imágenes, etc.
