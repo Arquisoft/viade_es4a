@@ -10,11 +10,8 @@ import {
   Welcome,
   RegistrationSuccess,
   Profile,
-  //GameList,
-  // GamePage,
   FormModelConverter,
   FormModelRenderer,
-  //TextEditor,
   addRoute,
   viewRoute,
   UploadRoute,
@@ -43,24 +40,6 @@ const privateRoutes = [
     path: '/viade_es4a/profile',
     component: Profile
   },
-  /*
-  {
-    id: 'tictactoe',
-    path: '/tictactoe',
-    component: GameList
-  },
-  {
-    id: 'tictactoegame',
-    path: '/tictactoe/:gameId',
-    component: GamePage
-  },
-  
-  {
-    id: 'text-editor',
-    path: '/text-editor',
-    component: TextEditor
-  },
-  */
   {
     id: 'formmodelconverter',
     path: '/formmodel/converter',

@@ -4,8 +4,6 @@ import PageNotFound from './PageNotFound';
 import Welcome from './Welcome';
 import Profile from './Profile';
 import MyMapComponent from './Mapa';
-//import TextEditor from './TextEditor';
-//import { GamePage, GameList } from './TicTacToe';
 import { FormModelConverter, FormModelRenderer } from './FormModel';
 import addRoute from './addRoute';
 import viewRoute from './viewRoute';
@@ -21,17 +19,13 @@ export {
   PageNotFound,
   Welcome,
   Profile,
-  MyMapComponent,
-  //  GamePage,
-  //  GameList,
+  MyMapComponent,  
   FormModelConverter,
-  FormModelRenderer,
-  //  TextEditor,
+  FormModelRenderer,  
   addRoute,
   viewRoute,
   UploadRoute,
   Friends,
-  //Mapa,
   RoutList,
   RoutesUser
 
