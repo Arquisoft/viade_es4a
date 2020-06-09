@@ -35,7 +35,7 @@ npm start
 
 If you have installed yet, you don't need npm install, you can use npm update for actualize the dependencies.
 
-Or, you can entry in this web <https://arquisoft.github.io/viade_es4a/> and you can work with our app.
+Or, you can entry in this web <https://adrian265431.github.io/viadeUO265431/> and you can work with our app.
 
 ## Build documentation
 
@@ -47,7 +47,7 @@ gem install asciidoctor-diagram
 npm run docs
 ```
 
-You can view the documentation in this web: <https://arquisoft.github.io/viade_es4a/docs/index.html>.
+You can view the documentation in this web: <https://adrian265431.github.io/viadeUO265431/docs/index.html>.
 
 ## Run test
 
